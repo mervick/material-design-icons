@@ -17,3 +17,6 @@ Thumbs.db
 
 # Compass config
 config.rb
+
+# Sass cache
+.sass-cache
