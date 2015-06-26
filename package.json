@@ -2,7 +2,6 @@
     "name": "bootstrap-material-icons",
     "version": "0.1.0-alpha",
     "description": "Google Material Design Icons For Using With Bootstrap",
-    "main": "demo/index.html",
     "repository": {
         "type": "git",
         "url": "https://github.com/google/material-design-icons"
@@ -17,9 +16,14 @@
         "bootstrap"
     ],
     "authors": [
-        "Andrey Izman <izmanw@gmail.com>"
+        {
+            "name": "Andrey Izman",
+            "email": "izmanw@gmail.com",
+            "role": "Developer",
+            "homepage": "http://gplus.to/izmandev"
+        }
     ],
-    "license": "MIT",
+    "license": ["MIT", "CC-BY-4.0"],
     "bugs": {
         "url": "http://github.com/mervick/bootstrap-material-icons/issues"
     },

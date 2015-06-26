@@ -1,5 +1,6 @@
 {
-    "name": "bootstrap-material-icons",
+    "name": "mervick/bootstrap-material-icons",
+    "version": "0.1.0-alpha",
     "description": "Google Material Design Icons For Using With Bootstrap",
     "authors": [
         {
@@ -19,7 +20,7 @@
         "bootstrap"
     ],
     "homepage": "http://github.com/mervick/bootstrap-material-icons",
-    "license": "MIT",
+    "license": ["MIT", "CC-BY-4.0"],
     "support": {
         "source": "http://github.com/mervick/bootstrap-material-icons"
     }
