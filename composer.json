@@ -1,13 +1,11 @@
 {
-    "name": "mervick/bootstrap-material-icons",
+    "name": "mervick/material-design-icon",
     "version": "0.3.0",
     "description": "Google Material Design Icons For Using With Bootstrap",
     "authors": [
         {
             "name": "Andrey Izman",
-            "email": "izmanw@gmail.com",
-            "role": "Developer",
-            "homepage": "http://gplus.to/izmandev"
+            "email": "izmanw@gmail.com"
         }
     ],
     "keywords": [
@@ -19,9 +17,9 @@
         "web-font",
         "bootstrap"
     ],
-    "homepage": "http://github.com/mervick/bootstrap-material-icons",
+    "homepage": "http://github.com/mervick/material-design-icon",
     "license": ["MIT", "CC-BY-4.0"],
     "support": {
-        "source": "http://github.com/mervick/bootstrap-material-icons"
+        "source": "http://github.com/mervick/material-design-icon"
     }
 }

@@ -1,8 +1,14 @@
 {
-    "name": "bootstrap-material-icons",
-    "repo": "mervick/bootstrap-material-icons",
+    "name": "material-design-icons",
+    "repo": "mervick/material-design-icons",
     "description": "Google Material Design Icons For Using With Bootstrap",
     "version": "0.3.0",
+    "authors": [
+        {
+            "name": "Andrey Izman",
+            "email": "izmanw@gmail.com"
+        }
+    ],
     "keywords": [
         "icons",
         "material",
