@@ -35,7 +35,7 @@ $ composer require mervick/bootstrap-material-icons
 
 Add to your html code
 ```html
-<link rel="stylesheet" href="css/material-icons.css">
+<link rel="stylesheet" href="css/material-icons.min.css">
 ```
 
 Material-style icon:
