@@ -2,12 +2,12 @@
 // -------------------------
 
 /* makes the font 33% larger relative to the icon container */
-.#{$mi-css-prefix}-lg {
+.#{$mi-css-prefix}-lg, .#{$mi-css-prefix}-size-lg {
   font-size: (4em / 3);
   line-height: (3em / 4);
   vertical-align: -15%;
 }
-.#{$mi-css-prefix}-2x { font-size: 2em; }
-.#{$mi-css-prefix}-3x { font-size: 3em; }
-.#{$mi-css-prefix}-4x { font-size: 4em; }
-.#{$mi-css-prefix}-5x { font-size: 5em; }
+.#{$mi-css-prefix}-2x, .#{$mi-css-prefix}-size-2x { font-size: 2em; }
+.#{$mi-css-prefix}-3x, .#{$mi-css-prefix}-size-3x { font-size: 3em; }
+.#{$mi-css-prefix}-4x, .#{$mi-css-prefix}-size-4x { font-size: 4em; }
+.#{$mi-css-prefix}-5x, .#{$mi-css-prefix}-size-5x { font-size: 5em; }

@@ -30,21 +30,21 @@
   font-feature-settings: 'liga'; }
 
 /* makes the font 33% larger relative to the icon container */
-.mi-lg {
+.mi-lg, .mi-size-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -15%; }
 
-.mi-2x {
+.mi-2x, .mi-size-2x {
   font-size: 2em; }
 
-.mi-3x {
+.mi-3x, .mi-size-3x {
   font-size: 3em; }
 
-.mi-4x {
+.mi-4x, .mi-size-4x {
   font-size: 4em; }
 
-.mi-5x {
+.mi-5x, .mi-size-5x {
   font-size: 5em; }
 
 .mi-fw {
