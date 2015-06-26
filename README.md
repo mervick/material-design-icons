@@ -4,9 +4,10 @@ Material design icons are the official [icon set](http://www.google.com/design/s
 from Google that are designed under the [material design guidelines](http://www.google.com/design/spec).
 
 In the official package the icons uses a typographic feature called [ligatures](http://alistapart.com/article/the-era-of-symbol-fonts), 
-which allows rendering of an icon glyph simply by using its textual name. E.g., `<i class="material-icons">face</i>`.
+which allows rendering of an icon glyph simply by using its textual name.
 
-In this repository also implemented the ability to use the icons in the bootstrap-style, like with `glyphicon`, `font-awesome` or `ionicons`.
+In this repository also implemented the ability to use the icons in the bootstrap-style, 
+like in `glyphicon`, `font-awesome` or `ionicons`.
 
 
 ## Installation
