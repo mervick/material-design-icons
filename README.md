@@ -63,11 +63,11 @@ Using bootstrap-style, you can also use additional features such as in Font Awes
 <i class="mi mi-attachment pull-right"></i>
 
 <!-- Sizes -->
-<i class="mi mi-attachment mi-size-lg"></i>
-<i class="mi mi-attachment mi-size-2x"></i>
-<i class="mi mi-attachment mi-size-3x"></i>
-<i class="mi mi-attachment mi-size-4x"></i>
-<i class="mi mi-attachment mi-size-5x"></i>
+<i class="mi mi-attachment mi-lg"></i>
+<i class="mi mi-attachment mi-2x"></i>
+<i class="mi mi-attachment mi-3x"></i>
+<i class="mi mi-attachment mi-4x"></i>
+<i class="mi mi-attachment mi-5x"></i>
 
 <!-- Rotations -->
 <i class="mi mi-attachment mi-rotate-90"></i>
