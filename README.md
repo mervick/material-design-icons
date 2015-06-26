@@ -27,7 +27,7 @@ Add to your html page in the `head` area
 <link rel="stylesheet" href="css/material-icons.css">
 ```
 
-### Where are two ways to usage:
+#### Where are two ways to usage:
 
 - Native, this one is awesome but have some troubles
 ```html
@@ -85,3 +85,11 @@ Using bootstrap-style, you can also use additional features such as in Font Awes
 ```
 
 All icons set you can find in the file `demo.html`.
+
+
+##License
+
+- Google Material design icons fonts is licensed under the CC-BY-4.0:
+  - https://github.com/google/material-design-icons/blob/master/LICENSE
+- Bootstrap Material Icons CSS and Sass files are licensed under the MIT License:
+  - http://opensource.org/licenses/mit-license.html
