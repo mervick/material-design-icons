@@ -89,7 +89,7 @@ All icons set you can find in the file `demo.html`.
 
 ##License
 
-- Google Material design icons fonts is licensed under the CC-BY-4.0:
+- Google Material Design Icons fonts is licensed under the CC-BY-4.0:
   - https://github.com/google/material-design-icons/blob/master/LICENSE
 - Bootstrap Material Icons CSS and Sass files are licensed under the MIT License:
   - http://opensource.org/licenses/mit-license.html
