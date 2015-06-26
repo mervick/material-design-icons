@@ -43,9 +43,45 @@ Add to your html page in the `head` area
 <i class="mi mi-airline-seat-legroom-reduced"></i>
 ```
 
-Using bootstrap-style, you can also use additional features such as implemented in Font Awesome
+Using bootstrap-style, you can also use additional features such as in Font Awesome:
 ```html
+<!-- Inverse -->
+<i class="mi mi-attachment mi-inverse"></i>
 
+<!-- Animated --> 
+<i class="mi mi-attachment mi-spin"></i>
+<i class="mi mi-attachment mi-pulse"></i>
+
+<!-- Fixed width -->
+<i class="mi mi-attachment mi-fw"></i>
+
+<!-- Bordered -->
+<i class="mi mi-attachment mi-border"></i>
+
+<!-- Pulled -->
+<i class="mi mi-attachment pull-left"></i>
+<i class="mi mi-attachment pull-right"></i>
+
+<!-- Sizes -->
+<i class="mi mi-attachment mi-size-lg"></i>
+<i class="mi mi-attachment mi-size-2x"></i>
+<i class="mi mi-attachment mi-size-3x"></i>
+<i class="mi mi-attachment mi-size-4x"></i>
+<i class="mi mi-attachment mi-size-5x"></i>
+
+<!-- Rotations -->
+<i class="mi mi-attachment mi-rotate-90"></i>
+<i class="mi mi-attachment mi-rotate-180"></i>
+<i class="mi mi-attachment mi-rotate-270"></i>
+
+<!-- Flips -->
+<i class="mi mi-attachment mi-flip-horizontal"></i>
+<i class="mi mi-attachment mi-flip-vertical"></i>
+
+<!-- In lists -->
+<ul class="mi-ul">
+    <li><i class="mi-li mi mi-keyboard-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+</ul>
 ```
 
 All icons set you can find in the file `demo.html`.
