@@ -33,11 +33,16 @@ $ composer require mervick/bootstrap-material-icons
 
 ## Usage 
 
-Material-style:
+Add to your html code
+```html
+<link rel="stylesheet" href="css/material-icons.css">
+```
+
+Material-style icon:
 ```html
 <i class="material-icons">home</i>
 ```
-Bootstrap-style:
+Bootstrap-style icon:
 ```html
 <i class="mdicon mdicon-home"></i>
 ```
