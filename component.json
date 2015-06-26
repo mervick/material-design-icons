@@ -21,6 +21,10 @@
     "dependencies": {},
     "development": {},
     "license": "MIT, CC-BY-4.0",
+    "homepage": "http://github.com/mervick/material-design-icons",
+    "support": {
+        "source": "http://github.com/mervick/material-design-icons"
+    },
     "styles": [
         "css/material-icons.css"
     ],

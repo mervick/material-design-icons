@@ -14,10 +14,10 @@ like in `glyphicon`, `font-awesome` or `ionicons`.
 
 Via package manager (one of following lines):
 ```
-$ component install mervick/bootstrap-material-icons
-$ composer require mervick/bootstrap-material-icons
-$ bower install bootstrap-material-icons --save
-$ npm install bootstrap-material-icons --save
+$ component install mervick/bootstrap-material-design-icons
+$ composer require mervick/material-design-icons
+$ bower install bootstrap-material-design-icons --save
+$ npm install bootstrap-material-design-icons --save
 ```
 
 ## Usage 
