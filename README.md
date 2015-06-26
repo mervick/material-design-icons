@@ -12,44 +12,40 @@ like in `glyphicon`, `font-awesome` or `ionicons`.
 
 ## Installation
 
-component
+Via package manager (one of following lines):
 ```
 $ component install mervick/bootstrap-material-icons
-```
-
-bower
-```
-$ bower install bootstrap-material-icons --save
-```
-
-npm
-```
-$ npm install bootstrap-material-icons --save
-```
-
-composer
-```
 $ composer require mervick/bootstrap-material-icons
+$ bower install bootstrap-material-icons --save
+$ npm install bootstrap-material-icons --save
 ```
 
 ## Usage 
 
-Add to your html code
+Add to your html page in the `head` area
 ```html
-<link rel="stylesheet" href="css/material-icons.min.css">
+<link rel="stylesheet" href="css/material-icons.css">
 ```
 
-Material-style icons:
+### Where are two ways to usage:
+
+- Native, this one is awesome but have some troubles
 ```html
 <i class="material-icons">accessibility</i>
 <i class="material-icons">3d_rotation</i>
 <i class="material-icons">airline_seat_legroom_reduced</i>
 ```
-Bootstrap-style icons:
+
+- In bootstrap-style, 
 ```html
 <i class="mi mi-accessibility"></i>
 <i class="mi mi-3d-rotation"></i>
 <i class="mi mi-airline-seat-legroom-reduced"></i>
+```
+
+Using bootstrap-style, you can also use additional features such as implemented in Font Awesome
+```html
+
 ```
 
 All icons set you can find in the file `demo.html`.
