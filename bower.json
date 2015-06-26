@@ -21,7 +21,7 @@
     ],
     "license": ["MIT", "CC-BY-4.0"],
     "main": [
-        "./css/material-icons.css",
+        "./css/material-icons.*",
         "./fonts/MaterialIcons-Regular.*"
     ],
     "ignore": [
