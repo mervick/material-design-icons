@@ -11,7 +11,7 @@
   display: inline-block;
   width: 1em;
   height: 1em;
-  line-height: 1;
+  line-height: 0.35em !important;
   text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;
