@@ -6,7 +6,7 @@ from Google that are designed under the [material design guidelines](http://www.
 In the official package the icons uses a typographic feature called [ligatures](http://alistapart.com/article/the-era-of-symbol-fonts), 
 which allows rendering of an icon glyph simply by using its textual name. E.g., `<i class="material-icons">face</i>`.
 
-In this repository implemented the ability to use the icons in the bootstrap-style, like with `glyphicon`, `font-awesome` or `ionicons`.
+In this repository also implemented the ability to use the icons in the bootstrap-style, like with `glyphicon`, `font-awesome` or `ionicons`.
 
 
 ## Installation
@@ -33,7 +33,11 @@ $ composer require mervick/bootstrap-material-icons
 
 ## Usage 
 
-Simple usage
+Material-style:
+```html
+<i class="material-icons">home</i>
+```
+Bootstrap-style:
 ```html
 <i class="mdicon mdicon-home"></i>
 ```
