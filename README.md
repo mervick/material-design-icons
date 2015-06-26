@@ -80,7 +80,7 @@ Using bootstrap-style, you can also use additional features such as in Font Awes
 
 <!-- In lists -->
 <ul class="mi-ul">
-    <li><i class="mi-li mi mi-keyboard-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li><i class="mi-li mi mi-keyboard-arrow-right"></i>Lorem ipsum dolor ...</li>
 </ul>
 ```
 
