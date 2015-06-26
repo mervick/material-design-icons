@@ -23,6 +23,11 @@
             "homepage": "http://gplus.to/izmandev"
         }
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mervick/bootstrap-material-icons.git"
+    },
+    "style": "css/material-icons.css",
     "license": ["MIT", "CC-BY-4.0"],
     "bugs": {
         "url": "http://github.com/mervick/bootstrap-material-icons/issues"
