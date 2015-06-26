@@ -38,13 +38,17 @@ Add to your html code
 <link rel="stylesheet" href="css/material-icons.min.css">
 ```
 
-Material-style icon:
+Material-style icons:
 ```html
-<i class="material-icons">home</i>
+<i class="material-icons">accessibility</i>
+<i class="material-icons">3d_rotation</i>
+<i class="material-icons">airline_seat_legroom_reduced</i>
 ```
-Bootstrap-style icon:
+Bootstrap-style icons:
 ```html
-<i class="mdicon mdicon-home"></i>
+<i class="mi mi-accessibility"></i>
+<i class="mi mi-3d-rotation"></i>
+<i class="mi mi-airline-seat-legroom-reduced"></i>
 ```
 
 All icons set you can find in the file `demo.html`.
