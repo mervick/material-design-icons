@@ -1,0 +1,2413 @@
+$iconclass : material;
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MaterialIcons-Regular.eot');
+    src: url('../fonts/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+    url('../fonts/MaterialIcons-Regular.woff') format('woff'),
+    url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.#{$iconclass} {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.#{$iconclass}-3d-rotation:before {
+    content: "\e84d";
+}
+.#{$iconclass}-access-alarm:before {
+    content: "\e190";
+}
+.#{$iconclass}-access-alarms:before {
+    content: "\e191";
+}
+.#{$iconclass}-access-time:before {
+    content: "\e192";
+}
+.#{$iconclass}-accessibility:before {
+    content: "\e84e";
+}
+.#{$iconclass}-account-balance:before {
+    content: "\e84f";
+}
+.#{$iconclass}-account-balance-wallet:before {
+    content: "\e850";
+}
+.#{$iconclass}-account-box:before {
+    content: "\e851";
+}
+.#{$iconclass}-account-circle:before {
+    content: "\e853";
+}
+.#{$iconclass}-adb:before {
+    content: "\e60e";
+}
+.#{$iconclass}-add:before {
+    content: "\e145";
+}
+.#{$iconclass}-add-alarm:before {
+    content: "\e193";
+}
+.#{$iconclass}-add-alert:before {
+    content: "\e003";
+}
+.#{$iconclass}-add-box:before {
+    content: "\e146";
+}
+.#{$iconclass}-add-circle:before {
+    content: "\e147";
+}
+.#{$iconclass}-add-circle-outline:before {
+    content: "\e148";
+}
+.#{$iconclass}-add-shopping-cart:before {
+    content: "\e854";
+}
+.#{$iconclass}-add-to-photos:before {
+    content: "\e39d";
+}
+.#{$iconclass}-adjust:before {
+    content: "\e39e";
+}
+.#{$iconclass}-airline-seat-flat:before {
+    content: "\e630";
+}
+.#{$iconclass}-airline-seat-flat-angled:before {
+    content: "\e631";
+}
+.#{$iconclass}-airline-seat-individual-suite:before {
+    content: "\e632";
+}
+.#{$iconclass}-airline-seat-legroom-extra:before {
+    content: "\e633";
+}
+.#{$iconclass}-airline-seat-legroom-normal:before {
+    content: "\e634";
+}
+.#{$iconclass}-airline-seat-legroom-reduced:before {
+    content: "\e635";
+}
+.#{$iconclass}-airline-seat-recline-extra:before {
+    content: "\e636";
+}
+.#{$iconclass}-airline-seat-recline-normal:before {
+    content: "\e637";
+}
+.#{$iconclass}-airplanemode-active:before {
+    content: "\e195";
+}
+.#{$iconclass}-airplanemode-inactive:before {
+    content: "\e194";
+}
+.#{$iconclass}-airplay:before {
+    content: "\e055";
+}
+.#{$iconclass}-alarm:before {
+    content: "\e855";
+}
+.#{$iconclass}-alarm-add:before {
+    content: "\e856";
+}
+.#{$iconclass}-alarm-off:before {
+    content: "\e857";
+}
+.#{$iconclass}-alarm-on:before {
+    content: "\e858";
+}
+.#{$iconclass}-album:before {
+    content: "\e019";
+}
+.#{$iconclass}-android:before {
+    content: "\e859";
+}
+.#{$iconclass}-announcement:before {
+    content: "\e85a";
+}
+.#{$iconclass}-apps:before {
+    content: "\e5c3";
+}
+.#{$iconclass}-archive:before {
+    content: "\e149";
+}
+.#{$iconclass}-arrow-back:before {
+    content: "\e5c4";
+}
+.#{$iconclass}-arrow-drop-down:before {
+    content: "\e5c5";
+}
+.#{$iconclass}-arrow-drop-down-circle:before {
+    content: "\e5c6";
+}
+.#{$iconclass}-arrow-drop-up:before {
+    content: "\e5c7";
+}
+.#{$iconclass}-arrow-forward:before {
+    content: "\e5c8";
+}
+.#{$iconclass}-aspect-ratio:before {
+    content: "\e85b";
+}
+.#{$iconclass}-assessment:before {
+    content: "\e85c";
+}
+.#{$iconclass}-assignment:before {
+    content: "\e85d";
+}
+.#{$iconclass}-assignment-ind:before {
+    content: "\e85e";
+}
+.#{$iconclass}-assignment-late:before {
+    content: "\e85f";
+}
+.#{$iconclass}-assignment-return:before {
+    content: "\e860";
+}
+.#{$iconclass}-assignment-returned:before {
+    content: "\e861";
+}
+.#{$iconclass}-assignment-turned-in:before {
+    content: "\e862";
+}
+.#{$iconclass}-assistant:before {
+    content: "\e39f";
+}
+.#{$iconclass}-assistant-photo:before {
+    content: "\e3a0";
+}
+.#{$iconclass}-attach-file:before {
+    content: "\e226";
+}
+.#{$iconclass}-attach-money:before {
+    content: "\e227";
+}
+.#{$iconclass}-attachment:before {
+    content: "\e2bc";
+}
+.#{$iconclass}-audiotrack:before {
+    content: "\e3a1";
+}
+.#{$iconclass}-autorenew:before {
+    content: "\e863";
+}
+.#{$iconclass}-av-timer:before {
+    content: "\e01b";
+}
+.#{$iconclass}-backspace:before {
+    content: "\e14a";
+}
+.#{$iconclass}-backup:before {
+    content: "\e864";
+}
+.#{$iconclass}-battery-alert:before {
+    content: "\e19c";
+}
+.#{$iconclass}-battery-charging-full:before {
+    content: "\e1a3";
+}
+.#{$iconclass}-battery-full:before {
+    content: "\e1a4";
+}
+.#{$iconclass}-battery-std:before {
+    content: "\e1a5";
+}
+.#{$iconclass}-battery-unknown:before {
+    content: "\e1a6";
+}
+.#{$iconclass}-beenhere:before {
+    content: "\e52d";
+}
+.#{$iconclass}-block:before {
+    content: "\e14b";
+}
+.#{$iconclass}-bluetooth:before {
+    content: "\e1a7";
+}
+.#{$iconclass}-bluetooth-audio:before {
+    content: "\e60f";
+}
+.#{$iconclass}-bluetooth-connected:before {
+    content: "\e1a8";
+}
+.#{$iconclass}-bluetooth-disabled:before {
+    content: "\e1a9";
+}
+.#{$iconclass}-bluetooth-searching:before {
+    content: "\e1aa";
+}
+.#{$iconclass}-blur-circular:before {
+    content: "\e3a2";
+}
+.#{$iconclass}-blur-linear:before {
+    content: "\e3a3";
+}
+.#{$iconclass}-blur-off:before {
+    content: "\e3a4";
+}
+.#{$iconclass}-blur-on:before {
+    content: "\e3a5";
+}
+.#{$iconclass}-book:before {
+    content: "\e865";
+}
+.#{$iconclass}-bookmark:before {
+    content: "\e866";
+}
+.#{$iconclass}-bookmark-border:before {
+    content: "\e867";
+}
+.#{$iconclass}-border-all:before {
+    content: "\e228";
+}
+.#{$iconclass}-border-bottom:before {
+    content: "\e229";
+}
+.#{$iconclass}-border-clear:before {
+    content: "\e22a";
+}
+.#{$iconclass}-border-color:before {
+    content: "\e22b";
+}
+.#{$iconclass}-border-horizontal:before {
+    content: "\e22c";
+}
+.#{$iconclass}-border-inner:before {
+    content: "\e22d";
+}
+.#{$iconclass}-border-left:before {
+    content: "\e22e";
+}
+.#{$iconclass}-border-outer:before {
+    content: "\e22f";
+}
+.#{$iconclass}-border-right:before {
+    content: "\e230";
+}
+.#{$iconclass}-border-style:before {
+    content: "\e231";
+}
+.#{$iconclass}-border-top:before {
+    content: "\e232";
+}
+.#{$iconclass}-border-vertical:before {
+    content: "\e233";
+}
+.#{$iconclass}-brightness-1:before {
+    content: "\e3a6";
+}
+.#{$iconclass}-brightness-2:before {
+    content: "\e3a7";
+}
+.#{$iconclass}-brightness-3:before {
+    content: "\e3a8";
+}
+.#{$iconclass}-brightness-4:before {
+    content: "\e3a9";
+}
+.#{$iconclass}-brightness-5:before {
+    content: "\e3aa";
+}
+.#{$iconclass}-brightness-6:before {
+    content: "\e3ab";
+}
+.#{$iconclass}-brightness-7:before {
+    content: "\e3ac";
+}
+.#{$iconclass}-brightness-auto:before {
+    content: "\e1ab";
+}
+.#{$iconclass}-brightness-high:before {
+    content: "\e1ac";
+}
+.#{$iconclass}-brightness-low:before {
+    content: "\e1ad";
+}
+.#{$iconclass}-brightness-medium:before {
+    content: "\e1ae";
+}
+.#{$iconclass}-broken-image:before {
+    content: "\e3ad";
+}
+.#{$iconclass}-brush:before {
+    content: "\e3ae";
+}
+.#{$iconclass}-bug-report:before {
+    content: "\e868";
+}
+.#{$iconclass}-build:before {
+    content: "\e869";
+}
+.#{$iconclass}-business:before {
+    content: "\e0af";
+}
+.#{$iconclass}-cached:before {
+    content: "\e86a";
+}
+.#{$iconclass}-cake:before {
+    content: "\e7e9";
+}
+.#{$iconclass}-call:before {
+    content: "\e0b0";
+}
+.#{$iconclass}-call-end:before {
+    content: "\e0b1";
+}
+.#{$iconclass}-call-made:before {
+    content: "\e0b2";
+}
+.#{$iconclass}-call-merge:before {
+    content: "\e0b3";
+}
+.#{$iconclass}-call-missed:before {
+    content: "\e0b4";
+}
+.#{$iconclass}-call-received:before {
+    content: "\e0b5";
+}
+.#{$iconclass}-call-split:before {
+    content: "\e0b6";
+}
+.#{$iconclass}-camera:before {
+    content: "\e3af";
+}
+.#{$iconclass}-camera-alt:before {
+    content: "\e3b0";
+}
+.#{$iconclass}-camera-enhance:before {
+    content: "\e8fc";
+}
+.#{$iconclass}-camera-front:before {
+    content: "\e3b1";
+}
+.#{$iconclass}-camera-rear:before {
+    content: "\e3b2";
+}
+.#{$iconclass}-camera-roll:before {
+    content: "\e3b3";
+}
+.#{$iconclass}-cancel:before {
+    content: "\e5c9";
+}
+.#{$iconclass}-card-giftcard:before {
+    content: "\e8f6";
+}
+.#{$iconclass}-card-membership:before {
+    content: "\e8f7";
+}
+.#{$iconclass}-card-travel:before {
+    content: "\e8f8";
+}
+.#{$iconclass}-cast:before {
+    content: "\e307";
+}
+.#{$iconclass}-cast-connected:before {
+    content: "\e308";
+}
+.#{$iconclass}-center-focus-strong:before {
+    content: "\e3b4";
+}
+.#{$iconclass}-center-focus-weak:before {
+    content: "\e3b5";
+}
+.#{$iconclass}-change-history:before {
+    content: "\e86b";
+}
+.#{$iconclass}-chat:before {
+    content: "\e0b7";
+}
+.#{$iconclass}-chat-bubble:before {
+    content: "\e0ca";
+}
+.#{$iconclass}-chat-bubble-outline:before {
+    content: "\e0cb";
+}
+.#{$iconclass}-check:before {
+    content: "\e5ca";
+}
+.#{$iconclass}-check-box:before {
+    content: "\e834";
+}
+.#{$iconclass}-check-box-outline-blank:before {
+    content: "\e835";
+}
+.#{$iconclass}-check-circle:before {
+    content: "\e86c";
+}
+.#{$iconclass}-chevron-left:before {
+    content: "\e5cb";
+}
+.#{$iconclass}-chevron-right:before {
+    content: "\e5cc";
+}
+.#{$iconclass}-chrome-reader-mode:before {
+    content: "\e86d";
+}
+.#{$iconclass}-class:before {
+    content: "\e86e";
+}
+.#{$iconclass}-clear:before {
+    content: "\e14c";
+}
+.#{$iconclass}-clear-all:before {
+    content: "\e0b8";
+}
+.#{$iconclass}-close:before {
+    content: "\e5cd";
+}
+.#{$iconclass}-closed-caption:before {
+    content: "\e01c";
+}
+.#{$iconclass}-cloud:before {
+    content: "\e2bd";
+}
+.#{$iconclass}-cloud-circle:before {
+    content: "\e2be";
+}
+.#{$iconclass}-cloud-done:before {
+    content: "\e2bf";
+}
+.#{$iconclass}-cloud-download:before {
+    content: "\e2c0";
+}
+.#{$iconclass}-cloud-off:before {
+    content: "\e2c1";
+}
+.#{$iconclass}-cloud-queue:before {
+    content: "\e2c2";
+}
+.#{$iconclass}-cloud-upload:before {
+    content: "\e2c3";
+}
+.#{$iconclass}-code:before {
+    content: "\e86f";
+}
+.#{$iconclass}-collections:before {
+    content: "\e3b6";
+}
+.#{$iconclass}-collections-bookmark:before {
+    content: "\e431";
+}
+.#{$iconclass}-color-lens:before {
+    content: "\e3b7";
+}
+.#{$iconclass}-colorize:before {
+    content: "\e3b8";
+}
+.#{$iconclass}-comment:before {
+    content: "\e0b9";
+}
+.#{$iconclass}-compare:before {
+    content: "\e3b9";
+}
+.#{$iconclass}-computer:before {
+    content: "\e30a";
+}
+.#{$iconclass}-confirmation-number:before {
+    content: "\e638";
+}
+.#{$iconclass}-contact-phone:before {
+    content: "\e0cf";
+}
+.#{$iconclass}-contacts:before {
+    content: "\e0ba";
+}
+.#{$iconclass}-content-copy:before {
+    content: "\e14d";
+}
+.#{$iconclass}-content-cut:before {
+    content: "\e14e";
+}
+.#{$iconclass}-content-paste:before {
+    content: "\e14f";
+}
+.#{$iconclass}-control-point:before {
+    content: "\e3ba";
+}
+.#{$iconclass}-control-point-duplicate:before {
+    content: "\e3bb";
+}
+.#{$iconclass}-create:before {
+    content: "\e150";
+}
+.#{$iconclass}-credit-card:before {
+    content: "\e870";
+}
+.#{$iconclass}-crop:before {
+    content: "\e3be";
+}
+.#{$iconclass}-crop-16-9:before {
+    content: "\e3bc";
+}
+.#{$iconclass}-crop-3-2:before {
+    content: "\e3bd";
+}
+.#{$iconclass}-crop-5-4:before {
+    content: "\e3bf";
+}
+.#{$iconclass}-crop-7-5:before {
+    content: "\e3c0";
+}
+.#{$iconclass}-crop-din:before {
+    content: "\e3c1";
+}
+.#{$iconclass}-crop-free:before {
+    content: "\e3c2";
+}
+.#{$iconclass}-crop-landscape:before {
+    content: "\e3c3";
+}
+.#{$iconclass}-crop-original:before {
+    content: "\e3c4";
+}
+.#{$iconclass}-crop-portrait:before {
+    content: "\e3c5";
+}
+.#{$iconclass}-crop-square:before {
+    content: "\e3c6";
+}
+.#{$iconclass}-dashboard:before {
+    content: "\e871";
+}
+.#{$iconclass}-data-usage:before {
+    content: "\e1af";
+}
+.#{$iconclass}-dehaze:before {
+    content: "\e3c7";
+}
+.#{$iconclass}-delete:before {
+    content: "\e872";
+}
+.#{$iconclass}-description:before {
+    content: "\e873";
+}
+.#{$iconclass}-desktop-mac:before {
+    content: "\e30b";
+}
+.#{$iconclass}-desktop-windows:before {
+    content: "\e30c";
+}
+.#{$iconclass}-details:before {
+    content: "\e3c8";
+}
+.#{$iconclass}-developer-board:before {
+    content: "\e30d";
+}
+.#{$iconclass}-developer-mode:before {
+    content: "\e1b0";
+}
+.#{$iconclass}-device-hub:before {
+    content: "\e335";
+}
+.#{$iconclass}-devices:before {
+    content: "\e1b1";
+}
+.#{$iconclass}-dialer-sip:before {
+    content: "\e0bb";
+}
+.#{$iconclass}-dialpad:before {
+    content: "\e0bc";
+}
+.#{$iconclass}-directions:before {
+    content: "\e52e";
+}
+.#{$iconclass}-directions-bike:before {
+    content: "\e52f";
+}
+.#{$iconclass}-directions-boat:before {
+    content: "\e532";
+}
+.#{$iconclass}-directions-bus:before {
+    content: "\e530";
+}
+.#{$iconclass}-directions-car:before {
+    content: "\e531";
+}
+.#{$iconclass}-directions-railway:before {
+    content: "\e534";
+}
+.#{$iconclass}-directions-run:before {
+    content: "\e566";
+}
+.#{$iconclass}-directions-subway:before {
+    content: "\e533";
+}
+.#{$iconclass}-directions-transit:before {
+    content: "\e535";
+}
+.#{$iconclass}-directions-walk:before {
+    content: "\e536";
+}
+.#{$iconclass}-disc-full:before {
+    content: "\e610";
+}
+.#{$iconclass}-dns:before {
+    content: "\e875";
+}
+.#{$iconclass}-do-not-disturb:before {
+    content: "\e612";
+}
+.#{$iconclass}-do-not-disturb-alt:before {
+    content: "\e611";
+}
+.#{$iconclass}-dock:before {
+    content: "\e30e";
+}
+.#{$iconclass}-domain:before {
+    content: "\e7ee";
+}
+.#{$iconclass}-done:before {
+    content: "\e876";
+}
+.#{$iconclass}-done-all:before {
+    content: "\e877";
+}
+.#{$iconclass}-drafts:before {
+    content: "\e151";
+}
+.#{$iconclass}-drive-eta:before {
+    content: "\e613";
+}
+.#{$iconclass}-dvr:before {
+    content: "\e1b2";
+}
+.#{$iconclass}-edit:before {
+    content: "\e3c9";
+}
+.#{$iconclass}-eject:before {
+    content: "\e8fb";
+}
+.#{$iconclass}-email:before {
+    content: "\e0be";
+}
+.#{$iconclass}-equalizer:before {
+    content: "\e01d";
+}
+.#{$iconclass}-error:before {
+    content: "\e000";
+}
+.#{$iconclass}-error-outline:before {
+    content: "\e001";
+}
+.#{$iconclass}-event:before {
+    content: "\e878";
+}
+.#{$iconclass}-event-available:before {
+    content: "\e614";
+}
+.#{$iconclass}-event-busy:before {
+    content: "\e615";
+}
+.#{$iconclass}-event-note:before {
+    content: "\e616";
+}
+.#{$iconclass}-event-seat:before {
+    content: "\e903";
+}
+.#{$iconclass}-exit-to-app:before {
+    content: "\e879";
+}
+.#{$iconclass}-expand-less:before {
+    content: "\e5ce";
+}
+.#{$iconclass}-expand-more:before {
+    content: "\e5cf";
+}
+.#{$iconclass}-explicit:before {
+    content: "\e01e";
+}
+.#{$iconclass}-explore:before {
+    content: "\e87a";
+}
+.#{$iconclass}-exposure:before {
+    content: "\e3ca";
+}
+.#{$iconclass}-exposure-neg-1:before {
+    content: "\e3cb";
+}
+.#{$iconclass}-exposure-neg-2:before {
+    content: "\e3cc";
+}
+.#{$iconclass}-exposure-plus-1:before {
+    content: "\e3cd";
+}
+.#{$iconclass}-exposure-plus-2:before {
+    content: "\e3ce";
+}
+.#{$iconclass}-exposure-zero:before {
+    content: "\e3cf";
+}
+.#{$iconclass}-extension:before {
+    content: "\e87b";
+}
+.#{$iconclass}-face:before {
+    content: "\e87c";
+}
+.#{$iconclass}-fast-forward:before {
+    content: "\e01f";
+}
+.#{$iconclass}-fast-rewind:before {
+    content: "\e020";
+}
+.#{$iconclass}-favorite:before {
+    content: "\e87d";
+}
+.#{$iconclass}-favorite-border:before {
+    content: "\e87e";
+}
+.#{$iconclass}-feedback:before {
+    content: "\e87f";
+}
+.#{$iconclass}-file-download:before {
+    content: "\e2c4";
+}
+.#{$iconclass}-file-upload:before {
+    content: "\e2c6";
+}
+.#{$iconclass}-filter:before {
+    content: "\e3d3";
+}
+.#{$iconclass}-filter-1:before {
+    content: "\e3d0";
+}
+.#{$iconclass}-filter-2:before {
+    content: "\e3d1";
+}
+.#{$iconclass}-filter-3:before {
+    content: "\e3d2";
+}
+.#{$iconclass}-filter-4:before {
+    content: "\e3d4";
+}
+.#{$iconclass}-filter-5:before {
+    content: "\e3d5";
+}
+.#{$iconclass}-filter-6:before {
+    content: "\e3d6";
+}
+.#{$iconclass}-filter-7:before {
+    content: "\e3d7";
+}
+.#{$iconclass}-filter-8:before {
+    content: "\e3d8";
+}
+.#{$iconclass}-filter-9:before {
+    content: "\e3d9";
+}
+.#{$iconclass}-filter-9-plus:before {
+    content: "\e3da";
+}
+.#{$iconclass}-filter-b-and-w:before {
+    content: "\e3db";
+}
+.#{$iconclass}-filter-center-focus:before {
+    content: "\e3dc";
+}
+.#{$iconclass}-filter-drama:before {
+    content: "\e3dd";
+}
+.#{$iconclass}-filter-frames:before {
+    content: "\e3de";
+}
+.#{$iconclass}-filter-hdr:before {
+    content: "\e3df";
+}
+.#{$iconclass}-filter-list:before {
+    content: "\e152";
+}
+.#{$iconclass}-filter-none:before {
+    content: "\e3e0";
+}
+.#{$iconclass}-filter-tilt-shift:before {
+    content: "\e3e2";
+}
+.#{$iconclass}-filter-vintage:before {
+    content: "\e3e3";
+}
+.#{$iconclass}-find-in-page:before {
+    content: "\e880";
+}
+.#{$iconclass}-find-replace:before {
+    content: "\e881";
+}
+.#{$iconclass}-flag:before {
+    content: "\e153";
+}
+.#{$iconclass}-flare:before {
+    content: "\e3e4";
+}
+.#{$iconclass}-flash-auto:before {
+    content: "\e3e5";
+}
+.#{$iconclass}-flash-off:before {
+    content: "\e3e6";
+}
+.#{$iconclass}-flash-on:before {
+    content: "\e3e7";
+}
+.#{$iconclass}-flight:before {
+    content: "\e539";
+}
+.#{$iconclass}-flight-land:before {
+    content: "\e904";
+}
+.#{$iconclass}-flight-takeoff:before {
+    content: "\e905";
+}
+.#{$iconclass}-flip:before {
+    content: "\e3e8";
+}
+.#{$iconclass}-flip-to-back:before {
+    content: "\e882";
+}
+.#{$iconclass}-flip-to-front:before {
+    content: "\e883";
+}
+.#{$iconclass}-folder:before {
+    content: "\e2c7";
+}
+.#{$iconclass}-folder-open:before {
+    content: "\e2c8";
+}
+.#{$iconclass}-folder-shared:before {
+    content: "\e2c9";
+}
+.#{$iconclass}-folder-special:before {
+    content: "\e617";
+}
+.#{$iconclass}-font-download:before {
+    content: "\e167";
+}
+.#{$iconclass}-format-align-center:before {
+    content: "\e234";
+}
+.#{$iconclass}-format-align-justify:before {
+    content: "\e235";
+}
+.#{$iconclass}-format-align-left:before {
+    content: "\e236";
+}
+.#{$iconclass}-format-align-right:before {
+    content: "\e237";
+}
+.#{$iconclass}-format-bold:before {
+    content: "\e238";
+}
+.#{$iconclass}-format-clear:before {
+    content: "\e239";
+}
+.#{$iconclass}-format-color-fill:before {
+    content: "\e23a";
+}
+.#{$iconclass}-format-color-reset:before {
+    content: "\e23b";
+}
+.#{$iconclass}-format-color-text:before {
+    content: "\e23c";
+}
+.#{$iconclass}-format-indent-decrease:before {
+    content: "\e23d";
+}
+.#{$iconclass}-format-indent-increase:before {
+    content: "\e23e";
+}
+.#{$iconclass}-format-italic:before {
+    content: "\e23f";
+}
+.#{$iconclass}-format-line-spacing:before {
+    content: "\e240";
+}
+.#{$iconclass}-format-list-bulleted:before {
+    content: "\e241";
+}
+.#{$iconclass}-format-list-numbered:before {
+    content: "\e242";
+}
+.#{$iconclass}-format-paint:before {
+    content: "\e243";
+}
+.#{$iconclass}-format-quote:before {
+    content: "\e244";
+}
+.#{$iconclass}-format-size:before {
+    content: "\e245";
+}
+.#{$iconclass}-format-strikethrough:before {
+    content: "\e246";
+}
+.#{$iconclass}-format-textdirection-l-to-r:before {
+    content: "\e247";
+}
+.#{$iconclass}-format-textdirection-r-to-l:before {
+    content: "\e248";
+}
+.#{$iconclass}-format-underlined:before {
+    content: "\e249";
+}
+.#{$iconclass}-forum:before {
+    content: "\e0bf";
+}
+.#{$iconclass}-forward:before {
+    content: "\e154";
+}
+.#{$iconclass}-forward-10:before {
+    content: "\e056";
+}
+.#{$iconclass}-forward-30:before {
+    content: "\e057";
+}
+.#{$iconclass}-forward-5:before {
+    content: "\e058";
+}
+.#{$iconclass}-fullscreen:before {
+    content: "\e5d0";
+}
+.#{$iconclass}-fullscreen-exit:before {
+    content: "\e5d1";
+}
+.#{$iconclass}-functions:before {
+    content: "\e24a";
+}
+.#{$iconclass}-gamepad:before {
+    content: "\e30f";
+}
+.#{$iconclass}-games:before {
+    content: "\e021";
+}
+.#{$iconclass}-gesture:before {
+    content: "\e155";
+}
+.#{$iconclass}-get-app:before {
+    content: "\e884";
+}
+.#{$iconclass}-gif:before {
+    content: "\e908";
+}
+.#{$iconclass}-gps-fixed:before {
+    content: "\e1b3";
+}
+.#{$iconclass}-gps-not-fixed:before {
+    content: "\e1b4";
+}
+.#{$iconclass}-gps-off:before {
+    content: "\e1b5";
+}
+.#{$iconclass}-grade:before {
+    content: "\e885";
+}
+.#{$iconclass}-gradient:before {
+    content: "\e3e9";
+}
+.#{$iconclass}-grain:before {
+    content: "\e3ea";
+}
+.#{$iconclass}-graphic-eq:before {
+    content: "\e1b8";
+}
+.#{$iconclass}-grid-off:before {
+    content: "\e3eb";
+}
+.#{$iconclass}-grid-on:before {
+    content: "\e3ec";
+}
+.#{$iconclass}-group:before {
+    content: "\e7ef";
+}
+.#{$iconclass}-group-add:before {
+    content: "\e7f0";
+}
+.#{$iconclass}-group-work:before {
+    content: "\e886";
+}
+.#{$iconclass}-hd:before {
+    content: "\e052";
+}
+.#{$iconclass}-hdr-off:before {
+    content: "\e3ed";
+}
+.#{$iconclass}-hdr-on:before {
+    content: "\e3ee";
+}
+.#{$iconclass}-hdr-strong:before {
+    content: "\e3f1";
+}
+.#{$iconclass}-hdr-weak:before {
+    content: "\e3f2";
+}
+.#{$iconclass}-headset:before {
+    content: "\e310";
+}
+.#{$iconclass}-headset-mic:before {
+    content: "\e311";
+}
+.#{$iconclass}-healing:before {
+    content: "\e3f3";
+}
+.#{$iconclass}-hearing:before {
+    content: "\e023";
+}
+.#{$iconclass}-help:before {
+    content: "\e887";
+}
+.#{$iconclass}-help-outline:before {
+    content: "\e8fd";
+}
+.#{$iconclass}-high-quality:before {
+    content: "\e024";
+}
+.#{$iconclass}-highlight-off:before {
+    content: "\e888";
+}
+.#{$iconclass}-history:before {
+    content: "\e889";
+}
+.#{$iconclass}-home:before {
+    content: "\e88a";
+}
+.#{$iconclass}-hotel:before {
+    content: "\e53a";
+}
+.#{$iconclass}-hourglass-empty:before {
+    content: "\e88b";
+}
+.#{$iconclass}-hourglass-full:before {
+    content: "\e88c";
+}
+.#{$iconclass}-http:before {
+    content: "\e902";
+}
+.#{$iconclass}-https:before {
+    content: "\e88d";
+}
+.#{$iconclass}-image:before {
+    content: "\e3f4";
+}
+.#{$iconclass}-image-aspect-ratio:before {
+    content: "\e3f5";
+}
+.#{$iconclass}-import-export:before {
+    content: "\e0c3";
+}
+.#{$iconclass}-inbox:before {
+    content: "\e156";
+}
+.#{$iconclass}-indeterminate-check-box:before {
+    content: "\e909";
+}
+.#{$iconclass}-info:before {
+    content: "\e88e";
+}
+.#{$iconclass}-info-outline:before {
+    content: "\e88f";
+}
+.#{$iconclass}-input:before {
+    content: "\e890";
+}
+.#{$iconclass}-insert-chart:before {
+    content: "\e24b";
+}
+.#{$iconclass}-insert-comment:before {
+    content: "\e24c";
+}
+.#{$iconclass}-insert-drive-file:before {
+    content: "\e24d";
+}
+.#{$iconclass}-insert-emoticon:before {
+    content: "\e24e";
+}
+.#{$iconclass}-insert-invitation:before {
+    content: "\e24f";
+}
+.#{$iconclass}-insert-link:before {
+    content: "\e250";
+}
+.#{$iconclass}-insert-photo:before {
+    content: "\e251";
+}
+.#{$iconclass}-invert-colors:before {
+    content: "\e891";
+}
+.#{$iconclass}-invert-colors-off:before {
+    content: "\e0c4";
+}
+.#{$iconclass}-iso:before {
+    content: "\e3f6";
+}
+.#{$iconclass}-keyboard:before {
+    content: "\e312";
+}
+.#{$iconclass}-keyboard-arrow-down:before {
+    content: "\e313";
+}
+.#{$iconclass}-keyboard-arrow-left:before {
+    content: "\e314";
+}
+.#{$iconclass}-keyboard-arrow-right:before {
+    content: "\e315";
+}
+.#{$iconclass}-keyboard-arrow-up:before {
+    content: "\e316";
+}
+.#{$iconclass}-keyboard-backspace:before {
+    content: "\e317";
+}
+.#{$iconclass}-keyboard-capslock:before {
+    content: "\e318";
+}
+.#{$iconclass}-keyboard-hide:before {
+    content: "\e31a";
+}
+.#{$iconclass}-keyboard-return:before {
+    content: "\e31b";
+}
+.#{$iconclass}-keyboard-tab:before {
+    content: "\e31c";
+}
+.#{$iconclass}-keyboard-voice:before {
+    content: "\e31d";
+}
+.#{$iconclass}-label:before {
+    content: "\e892";
+}
+.#{$iconclass}-label-outline:before {
+    content: "\e893";
+}
+.#{$iconclass}-landscape:before {
+    content: "\e3f7";
+}
+.#{$iconclass}-language:before {
+    content: "\e894";
+}
+.#{$iconclass}-laptop:before {
+    content: "\e31e";
+}
+.#{$iconclass}-laptop-chromebook:before {
+    content: "\e31f";
+}
+.#{$iconclass}-laptop-mac:before {
+    content: "\e320";
+}
+.#{$iconclass}-laptop-windows:before {
+    content: "\e321";
+}
+.#{$iconclass}-launch:before {
+    content: "\e895";
+}
+.#{$iconclass}-layers:before {
+    content: "\e53b";
+}
+.#{$iconclass}-layers-clear:before {
+    content: "\e53c";
+}
+.#{$iconclass}-leak-add:before {
+    content: "\e3f8";
+}
+.#{$iconclass}-leak-remove:before {
+    content: "\e3f9";
+}
+.#{$iconclass}-lens:before {
+    content: "\e3fa";
+}
+.#{$iconclass}-library-add:before {
+    content: "\e02e";
+}
+.#{$iconclass}-library-books:before {
+    content: "\e02f";
+}
+.#{$iconclass}-library-music:before {
+    content: "\e030";
+}
+.#{$iconclass}-link:before {
+    content: "\e157";
+}
+.#{$iconclass}-list:before {
+    content: "\e896";
+}
+.#{$iconclass}-live-help:before {
+    content: "\e0c6";
+}
+.#{$iconclass}-live-tv:before {
+    content: "\e639";
+}
+.#{$iconclass}-local-activity:before {
+    content: "\e53f";
+}
+.#{$iconclass}-local-airport:before {
+    content: "\e53d";
+}
+.#{$iconclass}-local-atm:before {
+    content: "\e53e";
+}
+.#{$iconclass}-local-bar:before {
+    content: "\e540";
+}
+.#{$iconclass}-local-cafe:before {
+    content: "\e541";
+}
+.#{$iconclass}-local-car-wash:before {
+    content: "\e542";
+}
+.#{$iconclass}-local-convenience-store:before {
+    content: "\e543";
+}
+.#{$iconclass}-local-dining:before {
+    content: "\e556";
+}
+.#{$iconclass}-local-drink:before {
+    content: "\e544";
+}
+.#{$iconclass}-local-florist:before {
+    content: "\e545";
+}
+.#{$iconclass}-local-gas-station:before {
+    content: "\e546";
+}
+.#{$iconclass}-local-grocery-store:before {
+    content: "\e547";
+}
+.#{$iconclass}-local-hospital:before {
+    content: "\e548";
+}
+.#{$iconclass}-local-hotel:before {
+    content: "\e549";
+}
+.#{$iconclass}-local-laundry-service:before {
+    content: "\e54a";
+}
+.#{$iconclass}-local-library:before {
+    content: "\e54b";
+}
+.#{$iconclass}-local-mall:before {
+    content: "\e54c";
+}
+.#{$iconclass}-local-movies:before {
+    content: "\e54d";
+}
+.#{$iconclass}-local-offer:before {
+    content: "\e54e";
+}
+.#{$iconclass}-local-parking:before {
+    content: "\e54f";
+}
+.#{$iconclass}-local-pharmacy:before {
+    content: "\e550";
+}
+.#{$iconclass}-local-phone:before {
+    content: "\e551";
+}
+.#{$iconclass}-local-pizza:before {
+    content: "\e552";
+}
+.#{$iconclass}-local-play:before {
+    content: "\e553";
+}
+.#{$iconclass}-local-post-office:before {
+    content: "\e554";
+}
+.#{$iconclass}-local-printshop:before {
+    content: "\e555";
+}
+.#{$iconclass}-local-see:before {
+    content: "\e557";
+}
+.#{$iconclass}-local-shipping:before {
+    content: "\e558";
+}
+.#{$iconclass}-local-taxi:before {
+    content: "\e559";
+}
+.#{$iconclass}-location-city:before {
+    content: "\e7f1";
+}
+.#{$iconclass}-location-disabled:before {
+    content: "\e1b6";
+}
+.#{$iconclass}-location-off:before {
+    content: "\e0c7";
+}
+.#{$iconclass}-location-on:before {
+    content: "\e0c8";
+}
+.#{$iconclass}-location-searching:before {
+    content: "\e1b7";
+}
+.#{$iconclass}-lock:before {
+    content: "\e897";
+}
+.#{$iconclass}-lock-open:before {
+    content: "\e898";
+}
+.#{$iconclass}-lock-outline:before {
+    content: "\e899";
+}
+.#{$iconclass}-looks:before {
+    content: "\e3fc";
+}
+.#{$iconclass}-looks-3:before {
+    content: "\e3fb";
+}
+.#{$iconclass}-looks-4:before {
+    content: "\e3fd";
+}
+.#{$iconclass}-looks-5:before {
+    content: "\e3fe";
+}
+.#{$iconclass}-looks-6:before {
+    content: "\e3ff";
+}
+.#{$iconclass}-looks-one:before {
+    content: "\e400";
+}
+.#{$iconclass}-looks-two:before {
+    content: "\e401";
+}
+.#{$iconclass}-loop:before {
+    content: "\e028";
+}
+.#{$iconclass}-loupe:before {
+    content: "\e402";
+}
+.#{$iconclass}-loyalty:before {
+    content: "\e89a";
+}
+.#{$iconclass}-mail:before {
+    content: "\e158";
+}
+.#{$iconclass}-map:before {
+    content: "\e55b";
+}
+.#{$iconclass}-markunread:before {
+    content: "\e159";
+}
+.#{$iconclass}-markunread-mailbox:before {
+    content: "\e89b";
+}
+.#{$iconclass}-memory:before {
+    content: "\e322";
+}
+.#{$iconclass}-menu:before {
+    content: "\e5d2";
+}
+.#{$iconclass}-merge-type:before {
+    content: "\e252";
+}
+.#{$iconclass}-message:before {
+    content: "\e0c9";
+}
+.#{$iconclass}-mic:before {
+    content: "\e029";
+}
+.#{$iconclass}-mic-none:before {
+    content: "\e02a";
+}
+.#{$iconclass}-mic-off:before {
+    content: "\e02b";
+}
+.#{$iconclass}-mms:before {
+    content: "\e618";
+}
+.#{$iconclass}-mode-comment:before {
+    content: "\e253";
+}
+.#{$iconclass}-mode-edit:before {
+    content: "\e254";
+}
+.#{$iconclass}-money-off:before {
+    content: "\e25c";
+}
+.#{$iconclass}-monochrome-photos:before {
+    content: "\e403";
+}
+.#{$iconclass}-mood:before {
+    content: "\e7f2";
+}
+.#{$iconclass}-mood-bad:before {
+    content: "\e7f3";
+}
+.#{$iconclass}-more:before {
+    content: "\e619";
+}
+.#{$iconclass}-more-horiz:before {
+    content: "\e5d3";
+}
+.#{$iconclass}-more-vert:before {
+    content: "\e5d4";
+}
+.#{$iconclass}-mouse:before {
+    content: "\e323";
+}
+.#{$iconclass}-movie:before {
+    content: "\e02c";
+}
+.#{$iconclass}-movie-creation:before {
+    content: "\e404";
+}
+.#{$iconclass}-music-note:before {
+    content: "\e405";
+}
+.#{$iconclass}-my-location:before {
+    content: "\e55c";
+}
+.#{$iconclass}-nature:before {
+    content: "\e406";
+}
+.#{$iconclass}-nature-people:before {
+    content: "\e407";
+}
+.#{$iconclass}-navigate-before:before {
+    content: "\e408";
+}
+.#{$iconclass}-navigate-next:before {
+    content: "\e409";
+}
+.#{$iconclass}-navigation:before {
+    content: "\e55d";
+}
+.#{$iconclass}-network-cell:before {
+    content: "\e1b9";
+}
+.#{$iconclass}-network-locked:before {
+    content: "\e61a";
+}
+.#{$iconclass}-network-wifi:before {
+    content: "\e1ba";
+}
+.#{$iconclass}-new-releases:before {
+    content: "\e031";
+}
+.#{$iconclass}-nfc:before {
+    content: "\e1bb";
+}
+.#{$iconclass}-no-sim:before {
+    content: "\e0cc";
+}
+.#{$iconclass}-not-interested:before {
+    content: "\e033";
+}
+.#{$iconclass}-note-add:before {
+    content: "\e89c";
+}
+.#{$iconclass}-notifications:before {
+    content: "\e7f4";
+}
+.#{$iconclass}-notifications-active:before {
+    content: "\e7f7";
+}
+.#{$iconclass}-notifications-none:before {
+    content: "\e7f5";
+}
+.#{$iconclass}-notifications-off:before {
+    content: "\e7f6";
+}
+.#{$iconclass}-notifications-paused:before {
+    content: "\e7f8";
+}
+.#{$iconclass}-offline-pin:before {
+    content: "\e90a";
+}
+.#{$iconclass}-ondemand-video:before {
+    content: "\e63a";
+}
+.#{$iconclass}-open-in-browser:before {
+    content: "\e89d";
+}
+.#{$iconclass}-open-in-new:before {
+    content: "\e89e";
+}
+.#{$iconclass}-open-with:before {
+    content: "\e89f";
+}
+.#{$iconclass}-pages:before {
+    content: "\e7f9";
+}
+.#{$iconclass}-pageview:before {
+    content: "\e8a0";
+}
+.#{$iconclass}-palette:before {
+    content: "\e40a";
+}
+.#{$iconclass}-panorama:before {
+    content: "\e40b";
+}
+.#{$iconclass}-panorama-fish-eye:before {
+    content: "\e40c";
+}
+.#{$iconclass}-panorama-horizontal:before {
+    content: "\e40d";
+}
+.#{$iconclass}-panorama-vertical:before {
+    content: "\e40e";
+}
+.#{$iconclass}-panorama-wide-angle:before {
+    content: "\e40f";
+}
+.#{$iconclass}-party-mode:before {
+    content: "\e7fa";
+}
+.#{$iconclass}-pause:before {
+    content: "\e034";
+}
+.#{$iconclass}-pause-circle-filled:before {
+    content: "\e035";
+}
+.#{$iconclass}-pause-circle-outline:before {
+    content: "\e036";
+}
+.#{$iconclass}-payment:before {
+    content: "\e8a1";
+}
+.#{$iconclass}-people:before {
+    content: "\e7fb";
+}
+.#{$iconclass}-people-outline:before {
+    content: "\e7fc";
+}
+.#{$iconclass}-perm-camera-mic:before {
+    content: "\e8a2";
+}
+.#{$iconclass}-perm-contact-calendar:before {
+    content: "\e8a3";
+}
+.#{$iconclass}-perm-data-setting:before {
+    content: "\e8a4";
+}
+.#{$iconclass}-perm-device-information:before {
+    content: "\e8a5";
+}
+.#{$iconclass}-perm-identity:before {
+    content: "\e8a6";
+}
+.#{$iconclass}-perm-media:before {
+    content: "\e8a7";
+}
+.#{$iconclass}-perm-phone-msg:before {
+    content: "\e8a8";
+}
+.#{$iconclass}-perm-scan-wifi:before {
+    content: "\e8a9";
+}
+.#{$iconclass}-person:before {
+    content: "\e7fd";
+}
+.#{$iconclass}-person-add:before {
+    content: "\e7fe";
+}
+.#{$iconclass}-person-outline:before {
+    content: "\e7ff";
+}
+.#{$iconclass}-person-pin:before {
+    content: "\e55a";
+}
+.#{$iconclass}-personal-video:before {
+    content: "\e63b";
+}
+.#{$iconclass}-phone:before {
+    content: "\e0cd";
+}
+.#{$iconclass}-phone-android:before {
+    content: "\e324";
+}
+.#{$iconclass}-phone-bluetooth-speaker:before {
+    content: "\e61b";
+}
+.#{$iconclass}-phone-forwarded:before {
+    content: "\e61c";
+}
+.#{$iconclass}-phone-in-talk:before {
+    content: "\e61d";
+}
+.#{$iconclass}-phone-iphone:before {
+    content: "\e325";
+}
+.#{$iconclass}-phone-locked:before {
+    content: "\e61e";
+}
+.#{$iconclass}-phone-missed:before {
+    content: "\e61f";
+}
+.#{$iconclass}-phone-paused:before {
+    content: "\e620";
+}
+.#{$iconclass}-phonelink:before {
+    content: "\e326";
+}
+.#{$iconclass}-phonelink-erase:before {
+    content: "\e0db";
+}
+.#{$iconclass}-phonelink-lock:before {
+    content: "\e0dc";
+}
+.#{$iconclass}-phonelink-off:before {
+    content: "\e327";
+}
+.#{$iconclass}-phonelink-ring:before {
+    content: "\e0dd";
+}
+.#{$iconclass}-phonelink-setup:before {
+    content: "\e0de";
+}
+.#{$iconclass}-photo:before {
+    content: "\e410";
+}
+.#{$iconclass}-photo-album:before {
+    content: "\e411";
+}
+.#{$iconclass}-photo-camera:before {
+    content: "\e412";
+}
+.#{$iconclass}-photo-library:before {
+    content: "\e413";
+}
+.#{$iconclass}-photo-size-select-actual:before {
+    content: "\e432";
+}
+.#{$iconclass}-photo-size-select-large:before {
+    content: "\e433";
+}
+.#{$iconclass}-photo-size-select-small:before {
+    content: "\e434";
+}
+.#{$iconclass}-picture-as-pdf:before {
+    content: "\e415";
+}
+.#{$iconclass}-picture-in-picture:before {
+    content: "\e8aa";
+}
+.#{$iconclass}-pin-drop:before {
+    content: "\e55e";
+}
+.#{$iconclass}-place:before {
+    content: "\e55f";
+}
+.#{$iconclass}-play-arrow:before {
+    content: "\e037";
+}
+.#{$iconclass}-play-circle-filled:before {
+    content: "\e038";
+}
+.#{$iconclass}-play-circle-outline:before {
+    content: "\e039";
+}
+.#{$iconclass}-play-for-work:before {
+    content: "\e906";
+}
+.#{$iconclass}-playlist-add:before {
+    content: "\e03b";
+}
+.#{$iconclass}-plus-one:before {
+    content: "\e800";
+}
+.#{$iconclass}-poll:before {
+    content: "\e801";
+}
+.#{$iconclass}-polymer:before {
+    content: "\e8ab";
+}
+.#{$iconclass}-portable-wifi-off:before {
+    content: "\e0ce";
+}
+.#{$iconclass}-portrait:before {
+    content: "\e416";
+}
+.#{$iconclass}-power:before {
+    content: "\e63c";
+}
+.#{$iconclass}-power-input:before {
+    content: "\e336";
+}
+.#{$iconclass}-power-settings-new:before {
+    content: "\e8ac";
+}
+.#{$iconclass}-present-to-all:before {
+    content: "\e0df";
+}
+.#{$iconclass}-print:before {
+    content: "\e8ad";
+}
+.#{$iconclass}-public:before {
+    content: "\e80b";
+}
+.#{$iconclass}-publish:before {
+    content: "\e255";
+}
+.#{$iconclass}-query-builder:before {
+    content: "\e8ae";
+}
+.#{$iconclass}-question-answer:before {
+    content: "\e8af";
+}
+.#{$iconclass}-queue:before {
+    content: "\e03c";
+}
+.#{$iconclass}-queue-music:before {
+    content: "\e03d";
+}
+.#{$iconclass}-radio:before {
+    content: "\e03e";
+}
+.#{$iconclass}-radio-button-checked:before {
+    content: "\e837";
+}
+.#{$iconclass}-radio-button-unchecked:before {
+    content: "\e836";
+}
+.#{$iconclass}-rate-review:before {
+    content: "\e560";
+}
+.#{$iconclass}-receipt:before {
+    content: "\e8b0";
+}
+.#{$iconclass}-recent-actors:before {
+    content: "\e03f";
+}
+.#{$iconclass}-redeem:before {
+    content: "\e8b1";
+}
+.#{$iconclass}-redo:before {
+    content: "\e15a";
+}
+.#{$iconclass}-refresh:before {
+    content: "\e5d5";
+}
+.#{$iconclass}-remove:before {
+    content: "\e15b";
+}
+.#{$iconclass}-remove-circle:before {
+    content: "\e15c";
+}
+.#{$iconclass}-remove-circle-outline:before {
+    content: "\e15d";
+}
+.#{$iconclass}-remove-red-eye:before {
+    content: "\e417";
+}
+.#{$iconclass}-reorder:before {
+    content: "\e8fe";
+}
+.#{$iconclass}-repeat:before {
+    content: "\e040";
+}
+.#{$iconclass}-repeat-one:before {
+    content: "\e041";
+}
+.#{$iconclass}-replay:before {
+    content: "\e042";
+}
+.#{$iconclass}-replay-10:before {
+    content: "\e059";
+}
+.#{$iconclass}-replay-30:before {
+    content: "\e05a";
+}
+.#{$iconclass}-replay-5:before {
+    content: "\e05b";
+}
+.#{$iconclass}-reply:before {
+    content: "\e15e";
+}
+.#{$iconclass}-reply-all:before {
+    content: "\e15f";
+}
+.#{$iconclass}-report:before {
+    content: "\e160";
+}
+.#{$iconclass}-report-problem:before {
+    content: "\e8b2";
+}
+.#{$iconclass}-restaurant-menu:before {
+    content: "\e561";
+}
+.#{$iconclass}-restore:before {
+    content: "\e8b3";
+}
+.#{$iconclass}-ring-volume:before {
+    content: "\e0d1";
+}
+.#{$iconclass}-room:before {
+    content: "\e8b4";
+}
+.#{$iconclass}-rotate-90-degrees-ccw:before {
+    content: "\e418";
+}
+.#{$iconclass}-rotate-left:before {
+    content: "\e419";
+}
+.#{$iconclass}-rotate-right:before {
+    content: "\e41a";
+}
+.#{$iconclass}-router:before {
+    content: "\e328";
+}
+.#{$iconclass}-satellite:before {
+    content: "\e562";
+}
+.#{$iconclass}-save:before {
+    content: "\e161";
+}
+.#{$iconclass}-scanner:before {
+    content: "\e329";
+}
+.#{$iconclass}-schedule:before {
+    content: "\e8b5";
+}
+.#{$iconclass}-school:before {
+    content: "\e80c";
+}
+.#{$iconclass}-screen-lock-landscape:before {
+    content: "\e1be";
+}
+.#{$iconclass}-screen-lock-portrait:before {
+    content: "\e1bf";
+}
+.#{$iconclass}-screen-lock-rotation:before {
+    content: "\e1c0";
+}
+.#{$iconclass}-screen-rotation:before {
+    content: "\e1c1";
+}
+.#{$iconclass}-sd-card:before {
+    content: "\e623";
+}
+.#{$iconclass}-sd-storage:before {
+    content: "\e1c2";
+}
+.#{$iconclass}-search:before {
+    content: "\e8b6";
+}
+.#{$iconclass}-security:before {
+    content: "\e32a";
+}
+.#{$iconclass}-select-all:before {
+    content: "\e162";
+}
+.#{$iconclass}-send:before {
+    content: "\e163";
+}
+.#{$iconclass}-settings:before {
+    content: "\e8b8";
+}
+.#{$iconclass}-settings-applications:before {
+    content: "\e8b9";
+}
+.#{$iconclass}-settings-backup-restore:before {
+    content: "\e8ba";
+}
+.#{$iconclass}-settings-bluetooth:before {
+    content: "\e8bb";
+}
+.#{$iconclass}-settings-brightness:before {
+    content: "\e8bd";
+}
+.#{$iconclass}-settings-cell:before {
+    content: "\e8bc";
+}
+.#{$iconclass}-settings-ethernet:before {
+    content: "\e8be";
+}
+.#{$iconclass}-settings-input-antenna:before {
+    content: "\e8bf";
+}
+.#{$iconclass}-settings-input-component:before {
+    content: "\e8c0";
+}
+.#{$iconclass}-settings-input-composite:before {
+    content: "\e8c1";
+}
+.#{$iconclass}-settings-input-hdmi:before {
+    content: "\e8c2";
+}
+.#{$iconclass}-settings-input-svideo:before {
+    content: "\e8c3";
+}
+.#{$iconclass}-settings-overscan:before {
+    content: "\e8c4";
+}
+.#{$iconclass}-settings-phone:before {
+    content: "\e8c5";
+}
+.#{$iconclass}-settings-power:before {
+    content: "\e8c6";
+}
+.#{$iconclass}-settings-remote:before {
+    content: "\e8c7";
+}
+.#{$iconclass}-settings-system-daydream:before {
+    content: "\e1c3";
+}
+.#{$iconclass}-settings-voice:before {
+    content: "\e8c8";
+}
+.#{$iconclass}-share:before {
+    content: "\e80d";
+}
+.#{$iconclass}-shop:before {
+    content: "\e8c9";
+}
+.#{$iconclass}-shop-two:before {
+    content: "\e8ca";
+}
+.#{$iconclass}-shopping-basket:before {
+    content: "\e8cb";
+}
+.#{$iconclass}-shopping-cart:before {
+    content: "\e8cc";
+}
+.#{$iconclass}-shuffle:before {
+    content: "\e043";
+}
+.#{$iconclass}-signal-cellular-4-bar:before {
+    content: "\e1c8";
+}
+.#{$iconclass}-signal-cellular-connected-no-internet-4-bar:before {
+    content: "\e1cd";
+}
+.#{$iconclass}-signal-cellular-no-sim:before {
+    content: "\e1ce";
+}
+.#{$iconclass}-signal-cellular-null:before {
+    content: "\e1cf";
+}
+.#{$iconclass}-signal-cellular-off:before {
+    content: "\e1d0";
+}
+.#{$iconclass}-signal-wifi-4-bar:before {
+    content: "\e1d8";
+}
+.#{$iconclass}-signal-wifi-4-bar-lock:before {
+    content: "\e1d9";
+}
+.#{$iconclass}-signal-wifi-off:before {
+    content: "\e1da";
+}
+.#{$iconclass}-sim-card:before {
+    content: "\e32b";
+}
+.#{$iconclass}-sim-card-alert:before {
+    content: "\e624";
+}
+.#{$iconclass}-skip-next:before {
+    content: "\e044";
+}
+.#{$iconclass}-skip-previous:before {
+    content: "\e045";
+}
+.#{$iconclass}-slideshow:before {
+    content: "\e41b";
+}
+.#{$iconclass}-smartphone:before {
+    content: "\e32c";
+}
+.#{$iconclass}-sms:before {
+    content: "\e625";
+}
+.#{$iconclass}-sms-failed:before {
+    content: "\e626";
+}
+.#{$iconclass}-snooze:before {
+    content: "\e046";
+}
+.#{$iconclass}-sort:before {
+    content: "\e164";
+}
+.#{$iconclass}-sort-by-alpha:before {
+    content: "\e053";
+}
+.#{$iconclass}-space-bar:before {
+    content: "\e256";
+}
+.#{$iconclass}-speaker:before {
+    content: "\e32d";
+}
+.#{$iconclass}-speaker-group:before {
+    content: "\e32e";
+}
+.#{$iconclass}-speaker-notes:before {
+    content: "\e8cd";
+}
+.#{$iconclass}-speaker-phone:before {
+    content: "\e0d2";
+}
+.#{$iconclass}-spellcheck:before {
+    content: "\e8ce";
+}
+.#{$iconclass}-star:before {
+    content: "\e838";
+}
+.#{$iconclass}-star-border:before {
+    content: "\e83a";
+}
+.#{$iconclass}-star-half:before {
+    content: "\e839";
+}
+.#{$iconclass}-stars:before {
+    content: "\e8d0";
+}
+.#{$iconclass}-stay-current-landscape:before {
+    content: "\e0d3";
+}
+.#{$iconclass}-stay-current-portrait:before {
+    content: "\e0d4";
+}
+.#{$iconclass}-stay-primary-landscape:before {
+    content: "\e0d5";
+}
+.#{$iconclass}-stay-primary-portrait:before {
+    content: "\e0d6";
+}
+.#{$iconclass}-stop:before {
+    content: "\e047";
+}
+.#{$iconclass}-storage:before {
+    content: "\e1db";
+}
+.#{$iconclass}-store:before {
+    content: "\e8d1";
+}
+.#{$iconclass}-store-mall-directory:before {
+    content: "\e563";
+}
+.#{$iconclass}-straighten:before {
+    content: "\e41c";
+}
+.#{$iconclass}-strikethrough-s:before {
+    content: "\e257";
+}
+.#{$iconclass}-style:before {
+    content: "\e41d";
+}
+.#{$iconclass}-subject:before {
+    content: "\e8d2";
+}
+.#{$iconclass}-subtitles:before {
+    content: "\e048";
+}
+.#{$iconclass}-supervisor-account:before {
+    content: "\e8d3";
+}
+.#{$iconclass}-surround-sound:before {
+    content: "\e049";
+}
+.#{$iconclass}-swap-calls:before {
+    content: "\e0d7";
+}
+.#{$iconclass}-swap-horiz:before {
+    content: "\e8d4";
+}
+.#{$iconclass}-swap-vert:before {
+    content: "\e8d5";
+}
+.#{$iconclass}-swap-vertical-circle:before {
+    content: "\e8d6";
+}
+.#{$iconclass}-switch-camera:before {
+    content: "\e41e";
+}
+.#{$iconclass}-switch-video:before {
+    content: "\e41f";
+}
+.#{$iconclass}-sync:before {
+    content: "\e627";
+}
+.#{$iconclass}-sync-disabled:before {
+    content: "\e628";
+}
+.#{$iconclass}-sync-problem:before {
+    content: "\e629";
+}
+.#{$iconclass}-system-update:before {
+    content: "\e62a";
+}
+.#{$iconclass}-system-update-alt:before {
+    content: "\e8d7";
+}
+.#{$iconclass}-tab:before {
+    content: "\e8d8";
+}
+.#{$iconclass}-tab-unselected:before {
+    content: "\e8d9";
+}
+.#{$iconclass}-tablet:before {
+    content: "\e32f";
+}
+.#{$iconclass}-tablet-android:before {
+    content: "\e330";
+}
+.#{$iconclass}-tablet-mac:before {
+    content: "\e331";
+}
+.#{$iconclass}-tag-faces:before {
+    content: "\e420";
+}
+.#{$iconclass}-tap-and-play:before {
+    content: "\e62b";
+}
+.#{$iconclass}-terrain:before {
+    content: "\e564";
+}
+.#{$iconclass}-text-format:before {
+    content: "\e165";
+}
+.#{$iconclass}-textsms:before {
+    content: "\e0d8";
+}
+.#{$iconclass}-texture:before {
+    content: "\e421";
+}
+.#{$iconclass}-theaters:before {
+    content: "\e8da";
+}
+.#{$iconclass}-thumb-down:before {
+    content: "\e8db";
+}
+.#{$iconclass}-thumb-up:before {
+    content: "\e8dc";
+}
+.#{$iconclass}-thumbs-up-down:before {
+    content: "\e8dd";
+}
+.#{$iconclass}-time-to-leave:before {
+    content: "\e62c";
+}
+.#{$iconclass}-timelapse:before {
+    content: "\e422";
+}
+.#{$iconclass}-timer:before {
+    content: "\e425";
+}
+.#{$iconclass}-timer-10:before {
+    content: "\e423";
+}
+.#{$iconclass}-timer-3:before {
+    content: "\e424";
+}
+.#{$iconclass}-timer-off:before {
+    content: "\e426";
+}
+.#{$iconclass}-toc:before {
+    content: "\e8de";
+}
+.#{$iconclass}-today:before {
+    content: "\e8df";
+}
+.#{$iconclass}-toll:before {
+    content: "\e8e0";
+}
+.#{$iconclass}-tonality:before {
+    content: "\e427";
+}
+.#{$iconclass}-toys:before {
+    content: "\e332";
+}
+.#{$iconclass}-track-changes:before {
+    content: "\e8e1";
+}
+.#{$iconclass}-traffic:before {
+    content: "\e565";
+}
+.#{$iconclass}-transform:before {
+    content: "\e428";
+}
+.#{$iconclass}-translate:before {
+    content: "\e8e2";
+}
+.#{$iconclass}-trending-down:before {
+    content: "\e8e3";
+}
+.#{$iconclass}-trending-flat:before {
+    content: "\e8e4";
+}
+.#{$iconclass}-trending-up:before {
+    content: "\e8e5";
+}
+.#{$iconclass}-tune:before {
+    content: "\e429";
+}
+.#{$iconclass}-turned-in:before {
+    content: "\e8e6";
+}
+.#{$iconclass}-turned-in-not:before {
+    content: "\e8e7";
+}
+.#{$iconclass}-tv:before {
+    content: "\e333";
+}
+.#{$iconclass}-undo:before {
+    content: "\e166";
+}
+.#{$iconclass}-unfold-less:before {
+    content: "\e5d6";
+}
+.#{$iconclass}-unfold-more:before {
+    content: "\e5d7";
+}
+.#{$iconclass}-usb:before {
+    content: "\e1e0";
+}
+.#{$iconclass}-verified-user:before {
+    content: "\e8e8";
+}
+.#{$iconclass}-vertical-align-bottom:before {
+    content: "\e258";
+}
+.#{$iconclass}-vertical-align-center:before {
+    content: "\e259";
+}
+.#{$iconclass}-vertical-align-top:before {
+    content: "\e25a";
+}
+.#{$iconclass}-vibration:before {
+    content: "\e62d";
+}
+.#{$iconclass}-video-library:before {
+    content: "\e04a";
+}
+.#{$iconclass}-videocam:before {
+    content: "\e04b";
+}
+.#{$iconclass}-videocam-off:before {
+    content: "\e04c";
+}
+.#{$iconclass}-view-agenda:before {
+    content: "\e8e9";
+}
+.#{$iconclass}-view-array:before {
+    content: "\e8ea";
+}
+.#{$iconclass}-view-carousel:before {
+    content: "\e8eb";
+}
+.#{$iconclass}-view-column:before {
+    content: "\e8ec";
+}
+.#{$iconclass}-view-comfy:before {
+    content: "\e42a";
+}
+.#{$iconclass}-view-compact:before {
+    content: "\e42b";
+}
+.#{$iconclass}-view-day:before {
+    content: "\e8ed";
+}
+.#{$iconclass}-view-headline:before {
+    content: "\e8ee";
+}
+.#{$iconclass}-view-list:before {
+    content: "\e8ef";
+}
+.#{$iconclass}-view-module:before {
+    content: "\e8f0";
+}
+.#{$iconclass}-view-quilt:before {
+    content: "\e8f1";
+}
+.#{$iconclass}-view-stream:before {
+    content: "\e8f2";
+}
+.#{$iconclass}-view-week:before {
+    content: "\e8f3";
+}
+.#{$iconclass}-vignette:before {
+    content: "\e435";
+}
+.#{$iconclass}-visibility:before {
+    content: "\e8f4";
+}
+.#{$iconclass}-visibility-off:before {
+    content: "\e8f5";
+}
+.#{$iconclass}-voice-chat:before {
+    content: "\e62e";
+}
+.#{$iconclass}-voicemail:before {
+    content: "\e0d9";
+}
+.#{$iconclass}-volume-down:before {
+    content: "\e04d";
+}
+.#{$iconclass}-volume-mute:before {
+    content: "\e04e";
+}
+.#{$iconclass}-volume-off:before {
+    content: "\e04f";
+}
+.#{$iconclass}-volume-up:before {
+    content: "\e050";
+}
+.#{$iconclass}-vpn-key:before {
+    content: "\e0da";
+}
+.#{$iconclass}-vpn-lock:before {
+    content: "\e62f";
+}
+.#{$iconclass}-wallpaper:before {
+    content: "\e1bc";
+}
+.#{$iconclass}-warning:before {
+    content: "\e002";
+}
+.#{$iconclass}-watch:before {
+    content: "\e334";
+}
+.#{$iconclass}-wb-auto:before {
+    content: "\e42c";
+}
+.#{$iconclass}-wb-cloudy:before {
+    content: "\e42d";
+}
+.#{$iconclass}-wb-incandescent:before {
+    content: "\e42e";
+}
+.#{$iconclass}-wb-iridescent:before {
+    content: "\e436";
+}
+.#{$iconclass}-wb-sunny:before {
+    content: "\e430";
+}
+.#{$iconclass}-wc:before {
+    content: "\e63d";
+}
+.#{$iconclass}-web:before {
+    content: "\e051";
+}
+.#{$iconclass}-whatshot:before {
+    content: "\e80e";
+}
+.#{$iconclass}-widgets:before {
+    content: "\e1bd";
+}
+.#{$iconclass}-wifi:before {
+    content: "\e63e";
+}
+.#{$iconclass}-wifi-lock:before {
+    content: "\e1e1";
+}
+.#{$iconclass}-wifi-tethering:before {
+    content: "\e1e2";
+}
+.#{$iconclass}-work:before {
+    content: "\e8f9";
+}
+.#{$iconclass}-wrap-text:before {
+    content: "\e25b";
+}
+.#{$iconclass}-youtube-searched-for:before {
+    content: "\e8fa";
+}
+.#{$iconclass}-zoom-in:before {
+    content: "\e8ff";
+}
+.#{$iconclass}-zoom-out:before {
+    content: "\e900";
+}
+
