@@ -1,17 +1,13 @@
 @font-face {
   font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
   src: url("../fonts/MaterialIcons-Regular.eot");
-  src: url("../fonts/MaterialIcons-Regular.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/MaterialIcons-Regular.woff2") format("woff2"),
-  url("../fonts/MaterialIcons-Regular.woff") format("woff"),
-  url("../fonts/MaterialIcons-Regular.ttf") format("truetype"); }
+  src: url("../fonts/MaterialIcons-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MaterialIcons-Regular.woff2") format("woff2"), url("../fonts/MaterialIcons-Regular.woff") format("woff"), url("../fonts/MaterialIcons-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400; }
 
 .mi, .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
+  font: normal normal normal 14px/1 "Material Icons";
+  font-size: inherit;
   display: inline-block;
   text-transform: none;
   letter-spacing: normal;
@@ -22,7 +18,8 @@
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
   /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); }
 
 .material-icons {
   width: 1em;
@@ -31,6 +28,142 @@
   text-rendering: optimizeLegibility;
   /* Support for IE. */
   font-feature-settings: 'liga'; }
+
+/* makes the font 33% larger relative to the icon container */
+.mi-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+.mi-2x {
+  font-size: 2em; }
+
+.mi-3x {
+  font-size: 3em; }
+
+.mi-4x {
+  font-size: 4em; }
+
+.mi-5x {
+  font-size: 5em; }
+
+.mi-fw {
+  width: 1.28571em;
+  text-align: center; }
+
+.mi-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none; }
+  .mi-ul > li {
+    position: relative; }
+
+.mi-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center; }
+  .mi-li.mi-lg {
+    left: -1.85714em; }
+
+.mi-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em; }
+
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+.mi.pull-left {
+  margin-right: .3em; }
+.mi.pull-right {
+  margin-left: .3em; }
+
+.mi-spin {
+  -webkit-animation: mi-spin 2s infinite linear;
+  animation: mi-spin 2s infinite linear; }
+
+.mi-pulse {
+  -webkit-animation: mi-spin 1s infinite steps(8);
+  animation: mi-spin 1s infinite steps(8); }
+
+@-webkit-keyframes mi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+@keyframes mi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+.mi-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.mi-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.mi-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.mi-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+.mi-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+:root .mi-rotate-90,
+:root .mi-rotate-180,
+:root .mi-rotate-270,
+:root .mi-flip-horizontal,
+:root .mi-flip-vertical {
+  filter: none; }
+
+.mi-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+.mi-stack-1x, .mi-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+.mi-stack-1x {
+  line-height: inherit; }
+
+.mi-stack-2x {
+  font-size: 2em; }
+
+.mi-inverse {
+  color: #fff; }
 
 .mi-3d-rotation:before {
   content: "\e84d"; }
