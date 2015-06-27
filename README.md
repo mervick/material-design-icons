@@ -12,13 +12,11 @@ like in `glyphicon`, `font-awesome` or `ionicons`.
 
 ## Installation
 
-Via package manager (one of following lines):
-```
-$ component install mervick/material-design-icons
-$ composer require mervick/material-design-icons
-$ bower install bootstrap-material-design-icons --save
-$ npm install bootstrap-material-design-icons --save
-```
+You may install this package using Component, Composer, Bower or npm:
+- Component: `component install mervick/material-design-icons`
+- Composer: `composer require mervick/material-design-icons`
+- Bower: `bower install bootstrap-material-design-icons --save`
+- npm: `npm install bootstrap-material-design-icons --save`
 
 ## Usage 
 
