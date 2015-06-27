@@ -1,8 +1,8 @@
 // Base Class Definition
 // -------------------------
 
-.#{$mi-css-prefix}, .material-icons {
-    font: normal normal normal #{$mi-font-size-base}/1 'Material Icons'; // shortening font declaration
+.#{$md-css-prefix}, .material-icons {
+    font: normal normal normal #{$md-font-size-base}/1 'Material Icons'; // shortening font declaration
     font-size: inherit; // can't have font-size inherit on line above, so need to override
     display: inline-block;
     text-transform: none;

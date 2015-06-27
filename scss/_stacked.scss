@@ -1,7 +1,7 @@
 // Stacked Icons
 // -------------------------
 
-.#{$mi-css-prefix}-stack {
+.#{$md-css-prefix}-stack {
   position: relative;
   display: inline-block;
   width: 2em;
@@ -9,12 +9,12 @@
   line-height: 2em;
   vertical-align: middle;
 }
-.#{$mi-css-prefix}-stack-1x, .#{$mi-css-prefix}-stack-2x {
+.#{$md-css-prefix}-stack-1x, .#{$md-css-prefix}-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center;
 }
-.#{$mi-css-prefix}-stack-1x { line-height: inherit; }
-.#{$mi-css-prefix}-stack-2x { font-size: 2em; }
-.#{$mi-css-prefix}-inverse { color: $mi-inverse; }
+.#{$md-css-prefix}-stack-1x { line-height: inherit; }
+.#{$md-css-prefix}-stack-2x { font-size: 2em; }
+.#{$md-css-prefix}-inverse { color: $md-inverse; }
