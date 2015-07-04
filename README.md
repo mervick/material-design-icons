@@ -36,49 +36,49 @@ Add to your html page in the `head` area
 
 - In bootstrap-style, 
 ```html
-<i class="md md-accessibility"></i>
-<i class="md md-3d-rotation"></i>
-<i class="md md-airline-seat-legroom-reduced"></i>
+<i class="mdi mdi-accessibility"></i>
+<i class="mdi mdi-3d-rotation"></i>
+<i class="mdi mdi-airline-seat-legroom-reduced"></i>
 ```
 
 Using bootstrap-style, you can also use additional features such as in Font Awesome:
 ```html
 <!-- Inverse -->
-<i class="md md-attachment md-inverse"></i>
+<i class="mdi mdi-attachment mdi-inverse"></i>
 
 <!-- Animated --> 
-<i class="md md-attachment md-spin"></i>
-<i class="md md-attachment md-pulse"></i>
+<i class="mdi mdi-attachment mdi-spin"></i>
+<i class="mdi mdi-attachment mdi-pulse"></i>
 
 <!-- Fixed width -->
-<i class="md md-attachment md-fw"></i>
+<i class="mdi mdi-attachment mdi-fw"></i>
 
 <!-- Bordered -->
-<i class="md md-attachment md-border"></i>
+<i class="mdi mdi-attachment mdi-border"></i>
 
 <!-- Pulled -->
-<i class="md md-attachment pull-left"></i>
-<i class="md md-attachment pull-right"></i>
+<i class="mdi mdi-attachment pull-left"></i>
+<i class="mdi mdi-attachment pull-right"></i>
 
 <!-- Sizes -->
-<i class="md md-attachment md-lg"></i>
-<i class="md md-attachment md-2x"></i>
-<i class="md md-attachment md-3x"></i>
-<i class="md md-attachment md-4x"></i>
-<i class="md md-attachment md-5x"></i>
+<i class="mdi mdi-attachment mdi-lg"></i>
+<i class="mdi mdi-attachment mdi-2x"></i>
+<i class="mdi mdi-attachment mdi-3x"></i>
+<i class="mdi mdi-attachment mdi-4x"></i>
+<i class="mdi mdi-attachment mdi-5x"></i>
 
 <!-- Rotations -->
-<i class="md md-attachment md-rotate-90"></i>
-<i class="md md-attachment md-rotate-180"></i>
-<i class="md md-attachment md-rotate-270"></i>
+<i class="mdi mdi-attachment mdi-rotate-90"></i>
+<i class="mdi mdi-attachment mdi-rotate-180"></i>
+<i class="mdi mdi-attachment mdi-rotate-270"></i>
 
 <!-- Flips -->
-<i class="md md-attachment md-flip-horizontal"></i>
-<i class="md md-attachment md-flip-vertical"></i>
+<i class="mdi mdi-attachment mdi-flip-horizontal"></i>
+<i class="mdi mdi-attachment mdi-flip-vertical"></i>
 
 <!-- In lists -->
-<ul class="md-ul">
-    <li><i class="md-li md md-keyboard-arrow-right"></i>Lorem ipsum dolor ...</li>
+<ul class="mdi-ul">
+    <li><i class="mdi-li mdi mdi-keyboard-arrow-right"></i>Lorem ipsum dolor ...</li>
 </ul>
 ```
 
