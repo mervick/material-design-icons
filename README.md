@@ -1,5 +1,7 @@
 # Material Design Icons
 
+[![Analytics](https://ga-beacon.appspot.com/UA-65295275-1/material-design-icons)](https://github.com/igrigorik/ga-beacon)
+
 Material design icons are the official [icon set](http://www.google.com/design/spec/style/icons.html#icons-system-icons) 
 from Google that are designed under the [material design guidelines](http://www.google.com/design/spec).
 
