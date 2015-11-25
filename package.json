@@ -24,7 +24,7 @@
     "style": "css/material-icons.css",
     "license": ["MIT", "CC-BY-4.0"],
     "bugs": {
-        "url": "http://github.com/mervick/material-design-icon/issues"
+        "url": "http://github.com/mervick/material-design-icons/issues"
     },
-    "homepage": "http://github.com/mervick/material-design-icon"
+    "homepage": "http://github.com/mervick/material-design-icons"
 }
