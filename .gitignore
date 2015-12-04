@@ -23,3 +23,6 @@ config.rb
 
 # Node modules
 node_modules
+
+# Vendors
+vendor
