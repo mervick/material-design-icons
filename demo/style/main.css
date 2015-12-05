@@ -1,0 +1,233 @@
+/* line 3, main.scss */
+html, body {
+  background-color: #f9f9f9;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: #444;
+  font-family: RobotoDraft, Roboto, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 16, main.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 20, main.scss */
+* {
+  font-family: RobotoDraft, Roboto, sans-serif; }
+
+/* line 24, main.scss */
+a {
+  color: #1e6bb8;
+  text-decoration: none; }
+  /* line 27, main.scss */
+  a:hover {
+    text-decoration: underline; }
+  /* line 30, main.scss */
+  a, a:hover {
+    outline: 0; }
+
+/* line 35, main.scss */
+#head-panel {
+  background-color: #03a9f4;
+  padding: 30px 0 20px; }
+  /* line 38, main.scss */
+  #head-panel h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    display: inline-block; }
+    /* line 44, main.scss */
+    #head-panel h1:after {
+      letter-spacing: 0.5em;
+      content: "\00a0"; }
+  /* line 49, main.scss */
+  #head-panel .buttons {
+    display: inline-block;
+    color: transparent; }
+
+/* line 55, main.scss */
+.container {
+  width: 100%;
+  padding: 0 35px;
+  margin: 0 auto;
+  height: 100%; }
+
+/* line 62, main.scss */
+.wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -120px;
+  padding: 0 0 120px; }
+
+/* line 69, main.scss */
+.layout {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 100%; }
+
+/* line 82, main.scss */
+.content {
+  margin: 120px 0 40px; }
+  /* line 84, main.scss */
+  .content p {
+    line-height: 36px;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px; }
+  /* line 90, main.scss */
+  .content code {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 3px; }
+    /* line 98, main.scss */
+    .content code:before, .content code:after {
+      letter-spacing: -0.2em;
+      content: "\00a0"; }
+
+/* line 105, main.scss */
+#search-panel {
+  height: 64px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 7; }
+  /* line 112, main.scss */
+  #search-panel.top-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }
+  /* line 119, main.scss */
+  #search-panel .search-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    fill: currentcolor;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    opacity: 0.5; }
+  /* line 129, main.scss */
+  #search-panel #search {
+    color: #434343;
+    font-size: 20px;
+    margin-left: 16px;
+    padding: 8px 0;
+    width: auto;
+    border: none;
+    outline: none;
+    -ms-flex: 1 1 0.000000001px;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: 0.000000001px;
+    flex-basis: 0.000000001px; }
+
+/* line 145, main.scss */
+#grid-container {
+  padding: 0;
+  min-height: 900px;
+  margin-top: 67px; }
+  /* line 149, main.scss */
+  #grid-container .grid {
+    margin: 20px -30px 0 -15px; }
+    /* line 151, main.scss */
+    #grid-container .grid:after {
+      clear: both;
+      display: table;
+      content: " "; }
+  /* line 157, main.scss */
+  #grid-container:after {
+    clear: both;
+    display: table;
+    content: " "; }
+  /* line 162, main.scss */
+  #grid-container h2 {
+    color: #a2a2a2;
+    font-size: 17px;
+    font-weight: normal;
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 67px 0 0;
+    margin: 47px 0 10px; }
+  /* line 171, main.scss */
+  #grid-container .no-results {
+    text-align: center;
+    color: #666;
+    font-size: 18px; }
+  /* line 176, main.scss */
+  #grid-container .item-container {
+    display: block;
+    width: 112px;
+    height: 120px;
+    margin: 0 10px 20px;
+    padding: 20px 0 0;
+    cursor: pointer;
+    background: transparent;
+    float: left;
+    transition: background 200ms ease-out;
+    border-radius: 2px; }
+    /* line 187, main.scss */
+    #grid-container .item-container:hover {
+      background: rgba(0, 0, 0, 0.1); }
+    /* line 190, main.scss */
+    #grid-container .item-container.selected {
+      background: #e0e0e0; }
+    /* line 193, main.scss */
+    #grid-container .item-container .item {
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex; }
+      /* line 203, main.scss */
+      #grid-container .item-container .item .mdi {
+        font-size: 48px;
+        width: 48px;
+        height: 48px;
+        color: #757575; }
+      /* line 209, main.scss */
+      #grid-container .item-container .item .caption {
+        color: #757575;
+        font-size: 11px;
+        margin-top: 16px;
+        overflow: hidden;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100px;
+        z-index: 1; }
+
+/* line 224, main.scss */
+#footer {
+  background: #EEE;
+  padding: 20px 0;
+  min-height: 120px; }
+
+@media (min-width: 1240px) {
+  /* line 231, main.scss */
+  .container {
+    width: 1226px; } }
