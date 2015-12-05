@@ -13,6 +13,17 @@ module.exports = function(grunt) {
                     'css/material-icons.css' : 'scss/material-icons.scss'
                 }
             },
+            demo: {
+                options: {
+                    sourcemap: 'none',
+                    unixNewlines: true,
+                    compass: true,
+                    lineNumbers: true,
+                },
+                files: {
+                    'demo/style/main.css' : 'demo/style/main.scss'
+                }
+            },
         },
         cssmin: {
             options: {
@@ -26,7 +37,10 @@ module.exports = function(grunt) {
         },
         watch: {
             css: {
-                files: 'scss/*.scss',
+                files: [
+                    'scss/material-icons.scss',
+                    'demo/style/main.scss'
+                ],
                 tasks: ['sass']
             }
         }
