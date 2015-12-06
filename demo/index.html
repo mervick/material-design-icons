@@ -16,18 +16,15 @@
         <div class="container">
           <h1>Bootstrap Material Design Icons</h1>
           <div class="buttons">
-            <!--<iframe src="https://ghbtns.com/github-btn.html?user=mervick&repo=material-design-icons&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>-->
-            <!--<iframe src="https://ghbtns.com/github-btn.html?user=mervick&repo=material-design-icons&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>-->
             <a class="github-button" href="https://github.com/mervick/material-design-icons" data-style="mega" data-count-href="/mervick/material-design-icons/stargazers" data-count-api="/repos/mervick/material-design-icons#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star mervick/material-design-icons on GitHub">Star</a>
-            <!--<a class="github-button" href="https://github.com/mervick/material-design-icons/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/mervick/material-design-icons/network" data-count-api="/repos/mervick/material-design-icons#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork mervick/material-design-icons on GitHub">Fork</a>-->
             <a class="github-button" href="https://github.com/mervick/material-design-icons/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download mervick/material-design-icons on GitHub">Download</a>
           </div>
         </div>
       </div>
       <div id="search-panel">
-        <div class="container layout">
+        <div class="container">
           <div class="search-icon">
-            <svg viewBox="0 0 24 24" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" fit="" style="pointer-events: none; display: block;"><g><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></g></svg>
+            <i class="mdi mdi-search"></i>
           </div>
           <input type="text" id="search" placeholder="Search" aria-label="Search"/>
         </div>
@@ -41,29 +38,15 @@
           set from Google that are designed under the <a href="http://www.google.com/design/spec">material design guidelines</a>.</p>
         <p>In the official package the icons uses a typographic feature called <a href="http://alistapart.com/article/the-era-of-symbol-fonts">ligatures</a>,
           which allows rendering of an icon glyph simply by using its textual name.</p>
-        <p>In this repository also implemented the ability to use the icons in the <code>bootstrap-style</code>, like in
+        <p><a href="https://github.com/mervick/material-design-icons">Bootstrap Material Design Icons</a> implements the ability to use the icons in the <code>bootstrap-style</code>, like in
           <code>glyphicon</code>, <code>font-awesome</code> or <code>ionicons</code>.</p>
 
         <div id="grid-container"></div>
 
-        <script id="grid" type="text/template">
-          <h2><%= category %></h2>
-          <div class="grid"><%= content %></div>
-        </script>
-
-        <script id="empty-grid" type="text/template">
-          <div class="no-results">No matches found</div>
-        </script>
-
-        <script id="grid-item" type="text/template">
-          <div class="item">
-            <i class="mdi mdi-<%= className %>"></i>
-            <div class="caption"><%= caption %></div>
-          </div>
-        </script>
-
       </div>
     </div>
+
+    <div id="snackbar"></div>
 
   </div>
 
@@ -79,6 +62,47 @@
       </div>
     </div>
   </footer>
+
+  <script id="empty-grid" type="text/template">
+    <div class="no-results">No matches found</div>
+  </script>
+
+  <script id="grid-item" type="text/template">
+    <div class="item">
+      <i class="mdi mdi-<%= className %>"></i>
+      <div class="caption"><%= caption %></div>
+    </div>
+  </script>
+
+  <script id="snackbar-template" type="text/template">
+    <div class="container">
+      <div class="snackbar-header">
+        <i class="mdi mdi-<%= className %>"></i>
+        <span class="caption"><%= caption %></span>
+        <div class="right-side">
+          <i class="mdi mdi-code"></i>
+          <span class="caption">ICON FONT</span>
+        </div>
+      </div>
+      <div class="snackbar-content flex">
+        <div class="col">
+          <h2>STEP 1: Setup Icon Font</h2>
+          <p>Follow the <a href="https://github.com/mervick/material-design-icons">instructions</a> to embed the icon
+            font in your site and learn how to style your icons using CSS.</p>
+        </div>
+        <div class="col">
+          <h2>STEP 2: Use Icon in Your Site</h2>
+          <p class="code comment">&lt;!-- Bootstrap style, for modern browsers, IE &gt; 8. --&gt;</p>
+          <textarea class="code" readonly>&lt;i class=&quot;mdi mdi-<%= className %>&quot;&gt;&lt;/i&gt;</textarea>
+          <p class="code comment">&lt;!-- Ligature style, for modern browsers, IE &gt; 9. --&gt;</p>
+          <textarea class="code" readonly>&lt;i class=&quot;material-icons&quot;&gt;<%= content %>&lt;/i&gt;</textarea>
+          <p class="code comment">&lt;!-- For IE9 or below. --&gt;</p>
+          <textarea class="code" readonly>&lt;i class=&quot;material-icons&quot;&gt;&amp;#x<%= code %>;&lt;/i&gt;</textarea>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </script>
 
   <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
