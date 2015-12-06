@@ -31,28 +31,49 @@
         tagName: 'div',
         className: 'item-container',
         template: _.template($('#grid-item').html()),
+        events : {
+            "click" : "showSnackBar"
+        },
         initialize: function (options) {
-            _.bindAll(this, 'render');
-            this.model.bind('change', this.render);
+            this.listenTo(this.model, 'hideSnackBar', this.hideSnackBar);
+            _.bindAll(this, 'render', 'hideSnackBar');
         },
         render: function () {
-            jQuery(this.el).empty();
-            jQuery(this.el).append(this.template(this.model.attributes));
+            $(this.el).html(this.template(this.model.attributes));
             return this;
+        },
+        showSnackBar: function() {
+            $("body").click();
+            this.model.trigger('hideSnackBar');
+            $(this.el).addClass("selected");
+            var view = new views.snackbarView({model: this.model});
+            view.render();
+            return false;
+        },
+        hideSnackBar: function() {
+            $(this.el).removeClass("selected");
         }
     });
+
     views.snackbarView = Backbone.View.extend({
         container: $('#snackbar'),
+        template: _.template($('#snackbar-template').html()),
         initialize: function (options) {
             this.collection = options.collection;
-            this.search_input.bind('keyup', $.proxy(this.search, this));
-            _.bindAll(this, 'render');
+            $("body").on("click focus", $.proxy(this.hide, this));
         },
+        render: function () {
+            this.container.empty();
+            this.container.append(this.template(this.model.attributes));
+        },
+        hide: function() {
+            this.container.empty();
+            this.model.trigger('hideSnackBar');
+        }
     });
 
     views.Icons = Backbone.View.extend({
         container: $('#grid-container'),
-        template: _.template($('#grid').html()),
         empty_content: $('#empty-grid').html(),
         search_input: $('#search'),
         initialize: function (options) {
@@ -70,40 +91,38 @@
             } else {
                 this.render();
             }
-            $('body, html').animate({scrollTop: $(this.container).offset().top - 64}, 0);
+            $('body, html').animate({scrollTop: this.container.offset().top - 64}, 0);
         },
         render: function (searchCollection) {
-            var container = $(this.container),
+            var container = this.container,
                 category = null,
-                content = $("<div/>"),
+                grid = $("<div/>", {"class" : "grid"}),
                 self = this,
                 models = searchCollection || this.collection;
             container.empty();
             models.forEach(function (item) {
-                var itemView = new views.Icon({
-                    model: item
-                });
+                var itemView = new views.Icon({model: item});
                 if (category === null) {
                     category = item.get('category');
                 }
                 if (category !== item.get('category')) {
-                    container.append(self.template({
-                        category: category.charAt(0).toUpperCase() +
-                        category.slice(1), content: content.html()
-                    }));
-                    content.html(itemView.render().el);
+                    $("<h2/>").html(category.charAt(0).toUpperCase() + category.slice(1)).
+                        appendTo(self.container);
+                    grid.appendTo(self.container);
+
                     category = item.get('category');
+                    grid = $("<div/>", {"class" : "grid"});
+                    grid.append(itemView.render().el);
                 } else {
-                    content.append(itemView.render().el);
+                    grid.append(itemView.render().el);
                 }
             });
             if (category !== null) {
-                container.append(this.template({
-                    category: category.charAt(0).toUpperCase() +
-                    category.slice(1), content: content.html()
-                }));
+                $("<h2/>").html(category.charAt(0).toUpperCase() + category.slice(1)).
+                    appendTo(self.container);
+                grid.appendTo(self.container);
             } else {
-                container.html(this.empty_content);
+                container.html(self.empty_content);
             }
             return this;
         }
@@ -132,7 +151,7 @@
 
         renderData(window.data);
 
-        $("textarea.code").focus(function() {
+        $("body").on("focus", "textarea.code", function() {
             var $this = $(this);
             $this.select();
             window.setTimeout(function() {
@@ -143,6 +162,11 @@
                 return false;
             }
             $this.mouseup(mouseUpHandler);
+        });
+
+        $("#snackbar").on("click focus", function(e) {
+            e.preventDefault();
+            return false;
         });
 
     });
