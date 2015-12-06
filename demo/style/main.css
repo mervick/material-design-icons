@@ -23,7 +23,7 @@ html, body {
 
 /* line 24, main.scss */
 a {
-  color: #1e6bb8;
+  color: #02a8f3;
   text-decoration: none; }
   /* line 27, main.scss */
   a:hover {
@@ -55,40 +55,26 @@ a {
 /* line 55, main.scss */
 .container {
   width: 100%;
-  padding: 0 35px;
-  margin: 0 auto;
+  padding: 0 20px;
   height: 100%; }
 
-/* line 62, main.scss */
+/* line 61, main.scss */
 .wrap {
   min-height: 100%;
   height: auto;
   margin: 0 auto -120px;
   padding: 0 0 120px; }
 
-/* line 69, main.scss */
-.layout {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-direction: row;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  height: 100%; }
-
-/* line 82, main.scss */
+/* line 68, main.scss */
 .content {
   margin: 120px 0 40px; }
-  /* line 84, main.scss */
+  /* line 70, main.scss */
   .content p {
     line-height: 36px;
     font-size: 20px;
     margin-top: 2px;
     margin-bottom: 10px; }
-  /* line 90, main.scss */
+  /* line 76, main.scss */
   .content code {
     padding: 0;
     padding-top: 0.2em;
@@ -97,12 +83,12 @@ a {
     font-size: 85%;
     background-color: rgba(0, 0, 0, 0.04);
     border-radius: 3px; }
-    /* line 98, main.scss */
+    /* line 84, main.scss */
     .content code:before, .content code:after {
       letter-spacing: -0.2em;
       content: "\00a0"; }
 
-/* line 105, main.scss */
+/* line 91, main.scss */
 #search-panel {
   height: 64px;
   width: 100%;
@@ -110,24 +96,39 @@ a {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: 7; }
-  /* line 112, main.scss */
+  /* line 98, main.scss */
   #search-panel.top-fixed {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }
-  /* line 119, main.scss */
+  /* line 105, main.scss */
+  #search-panel .container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%; }
+  /* line 117, main.scss */
   #search-panel .search-icon {
     display: inline-block;
     vertical-align: middle;
     background-repeat: no-repeat;
     fill: currentcolor;
     position: relative;
-    height: 24px;
-    width: 24px;
     opacity: 0.5; }
-  /* line 129, main.scss */
+    /* line 124, main.scss */
+    #search-panel .search-icon, #search-panel .search-icon .mdi {
+      height: 24px;
+      width: 24px;
+      font-size: 24px; }
+  /* line 130, main.scss */
   #search-panel #search {
     color: #434343;
     font-size: 20px;
@@ -142,57 +143,58 @@ a {
     -webkit-flex-basis: 0.000000001px;
     flex-basis: 0.000000001px; }
 
-/* line 145, main.scss */
+/* line 146, main.scss */
 #grid-container {
-  padding: 0;
+  padding: 0 0 70px;
   min-height: 900px;
   margin-top: 67px; }
-  /* line 149, main.scss */
+  /* line 150, main.scss */
   #grid-container .grid {
-    margin: 20px -30px 0 -15px; }
-    /* line 151, main.scss */
+    margin: 20px -15px 0 -15px; }
+    /* line 152, main.scss */
     #grid-container .grid:after {
       clear: both;
       display: table;
       content: " "; }
-  /* line 157, main.scss */
+  /* line 158, main.scss */
   #grid-container:after {
     clear: both;
     display: table;
     content: " "; }
-  /* line 162, main.scss */
+  /* line 163, main.scss */
   #grid-container h2 {
     color: #a2a2a2;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: normal;
     display: block;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
     padding: 67px 0 0;
     margin: 47px 0 10px; }
-  /* line 171, main.scss */
+  /* line 172, main.scss */
   #grid-container .no-results {
     text-align: center;
-    color: #666;
-    font-size: 18px; }
-  /* line 176, main.scss */
+    color: #909090;
+    font-size: 24px;
+    padding: 150px 0; }
+  /* line 178, main.scss */
   #grid-container .item-container {
     display: block;
     width: 112px;
     height: 120px;
-    margin: 0 10px 20px;
+    margin: 0 10px 5px;
     padding: 20px 0 0;
     cursor: pointer;
     background: transparent;
     float: left;
     transition: background 200ms ease-out;
     border-radius: 2px; }
-    /* line 187, main.scss */
+    /* line 189, main.scss */
     #grid-container .item-container:hover {
       background: rgba(0, 0, 0, 0.1); }
-    /* line 190, main.scss */
+    /* line 192, main.scss */
     #grid-container .item-container.selected {
       background: #e0e0e0; }
-    /* line 193, main.scss */
+    /* line 195, main.scss */
     #grid-container .item-container .item {
       -ms-flex-align: center;
       -webkit-align-items: center;
@@ -203,13 +205,13 @@ a {
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex; }
-      /* line 203, main.scss */
+      /* line 205, main.scss */
       #grid-container .item-container .item .mdi {
         font-size: 48px;
         width: 48px;
         height: 48px;
         color: #757575; }
-      /* line 209, main.scss */
+      /* line 211, main.scss */
       #grid-container .item-container .item .caption {
         color: #757575;
         font-size: 11px;
@@ -221,13 +223,136 @@ a {
         width: 100px;
         z-index: 1; }
 
-/* line 224, main.scss */
+/* line 226, main.scss */
+#snackbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5; }
+  /* line 232, main.scss */
+  #snackbar .snackbar-header {
+    color: #fff;
+    height: 64px;
+    background-color: #03a9f4;
+    padding: 19px 20px 20px;
+    line-height: 26px; }
+    /* line 238, main.scss */
+    #snackbar .snackbar-header .mdi {
+      width: 24px;
+      height: 24px;
+      font-size: 24px;
+      float: left; }
+    /* line 244, main.scss */
+    #snackbar .snackbar-header .caption {
+      font-size: 16px;
+      margin-left: 15px; }
+    /* line 248, main.scss */
+    #snackbar .snackbar-header .right-side {
+      float: right; }
+      /* line 250, main.scss */
+      #snackbar .snackbar-header .right-side .mdi {
+        font-size: 22px;
+        margin-top: 1px; }
+      /* line 254, main.scss */
+      #snackbar .snackbar-header .right-side .caption {
+        font-weight: 500;
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 14px; }
+  /* line 262, main.scss */
+  #snackbar p, #snackbar p a, #snackbar .code {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    line-height: 24px;
+    background-color: #eee; }
+  /* line 268, main.scss */
+  #snackbar .code {
+    color: #434343;
+    border: 0;
+    cursor: default;
+    display: block;
+    outline: none;
+    padding: 0;
+    height: 24px;
+    resize: none;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden; }
+    /* line 280, main.scss */
+    #snackbar .code.comment {
+      opacity: 0.5; }
+  /* line 284, main.scss */
+  #snackbar .snackbar-content {
+    background-color: #eee;
+    padding: 8px 24px;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); }
+    /* line 291, main.scss */
+    #snackbar .snackbar-content h2, #snackbar .snackbar-content p {
+      font-size: 13px;
+      line-height: 24px;
+      font-family: 'Roboto Mono', monospace; }
+    /* line 296, main.scss */
+    #snackbar .snackbar-content h2 {
+      color: #02a8f3;
+      display: inline-block;
+      font-weight: 500;
+      margin: 0; }
+    /* line 302, main.scss */
+    #snackbar .snackbar-content p {
+      margin: 0;
+      color: #434343; }
+    /* line 306, main.scss */
+    #snackbar .snackbar-content .col {
+      margin: 16px 40px 16px 0; }
+  /* line 310, main.scss */
+  #snackbar .snackbar-header, #snackbar .snackbar-content {
+    margin: 0 -20px 0; }
+
+/* line 315, main.scss */
 #footer {
   background: #EEE;
   padding: 20px 0;
   min-height: 120px; }
 
+@media (min-width: 800px) {
+  /* line 322, main.scss */
+  .flex {
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+
+  /* line 330, main.scss */
+  .col {
+    width: 50%; }
+
+  /* line 333, main.scss */
+  .container {
+    padding: 0 35px;
+    margin: 0 auto; }
+
+  /* line 337, main.scss */
+  .snackbar-header, .snackbar-content {
+    margin: 0 -10px 0; }
+
+  /* line 340, main.scss */
+  #grid-container .grid {
+    margin: 20px -30px 0 -15px; } }
+@media (min-width: 950px) {
+  /* line 346, main.scss */
+  .col {
+    width: 45%; } }
+@media (min-width: 1100px) {
+  /* line 352, main.scss */
+  .col {
+    width: 40%; } }
 @media (min-width: 1240px) {
-  /* line 231, main.scss */
+  /* line 358, main.scss */
   .container {
     width: 1226px; } }
