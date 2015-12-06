@@ -13,7 +13,7 @@
                         caption: content.replace(/_/g, ' '),
                         className: content.replace(/_/g, '-'),
                         content: content,
-                        code: code,
+                        code: code.toUpperCase(),
                     });
                 });
             });
