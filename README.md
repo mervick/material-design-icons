@@ -11,6 +11,7 @@ which allows rendering of an icon glyph simply by using its textual name.
 In this repository also implemented the ability to use the icons in the bootstrap-style, 
 like in `glyphicon`, `font-awesome` or `ionicons`.
 
+See [demo](http://mervick.github.io/material-design-icons/) with all icon set.
 
 ## Installation
 
@@ -27,16 +28,16 @@ Add to your html page in the `head` area
 <link rel="stylesheet" href="css/material-icons.css">
 ```
 
-#### Where are two ways to usage:
+#### Where are two ways to use:
 
-- Native, this one is awesome but have some troubles
+- Ligature, this one is awesome but have some troubles
 ```html
 <i class="material-icons">accessibility</i>
 <i class="material-icons">3d_rotation</i>
 <i class="material-icons">airline_seat_legroom_reduced</i>
 ```
 
-- In bootstrap-style, 
+- Bootstrap-style, 
 ```html
 <i class="mdi mdi-accessibility"></i>
 <i class="mdi mdi-3d-rotation"></i>
@@ -83,8 +84,6 @@ Using bootstrap-style, you can also use additional features such as in Font Awes
     <li><i class="mdi-li mdi mdi-keyboard-arrow-right"></i>Lorem ipsum dolor ...</li>
 </ul>
 ```
-
-All icons set you can find in the file `demo.html`.
 
 
 ##License
