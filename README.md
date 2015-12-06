@@ -18,8 +18,8 @@ See [demo](http://mervick.github.io/material-design-icons/) with all icon set.
 You may install this package using Component, Composer, Bower or npm:
 - Component: `component install mervick/material-design-icons`
 - Composer: `composer require mervick/material-design-icons`
-- Bower: `bower install bootstrap-material-design-icons --save`
-- npm: `npm install bootstrap-material-design-icons --save`
+- Bower: `bower install bootstrap-material-design-icons`
+- npm: `npm install bootstrap-material-design-icons`
 
 ## Usage 
 
