@@ -62,7 +62,7 @@ a {
     min-height: 100%;
     height: auto;
     margin: 0 auto -120px;
-    padding: 0 0 120px;
+    padding: 0 0 160px;
 }
 
 .content {
@@ -125,6 +125,12 @@ a {
             height: 24px;
             width: 24px;
             font-size: 24px;
+        }
+        &.clear-icon {
+            cursor: pointer;
+            &:hover {
+                opacity: 1;
+            }
         }
     }
     #search {
@@ -235,6 +241,7 @@ a {
         background-color: #03a9f4;
         padding: 19px 20px 20px;
         line-height: 26px;
+        overflow: hidden;
         .mdi {
             width: 24px;
             height: 24px;
@@ -246,6 +253,7 @@ a {
             margin-left: 15px;
         }
         .right-side {
+            display: none;
             float: right;
             .mdi {
                 font-size: 22px;
@@ -304,7 +312,7 @@ a {
             color: #434343;
         }
         .col {
-            margin: 16px 40px 16px 0;
+            margin: 16px 0;
         }
     }
     .snackbar-header, .snackbar-content {
@@ -316,6 +324,17 @@ a {
     background: #EEE;
     padding: 20px 0;
     min-height: 120px;
+}
+
+@media (min-width: 500px) {
+    #snackbar {
+        .snackbar-content .col {
+            margin: 16px 40px 16px 0;
+        }
+        .snackbar-header .right-side {
+            display: block;
+        }
+    }
 }
 
 @media (min-width: 800px) {
