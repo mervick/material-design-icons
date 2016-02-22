@@ -6,14 +6,15 @@
             var icons = [],
                 categories = [];
             $.each(data, function (category, items) {
-                $.each(items, function (content, code) {
+                $.each(items, function (content, d) {
                     categories.push(category);
                     icons.push({
                         category: category,
                         caption: content.replace(/_/g, ' '),
                         className: content.replace(/_/g, '-'),
                         content: content,
-                        code: code.toUpperCase(),
+                        code: d[0].toUpperCase(),
+                        is_new: d[1] && true
                     });
                 });
             });
