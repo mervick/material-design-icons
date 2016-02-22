@@ -1,4 +1,5 @@
-# Material Design Icons
+# Material Design Icons 
+[mervick.github.io/material-design-icons](http://mervick.github.io/material-design-icons/)
 
 Material design icons are the official [icon set](http://www.google.com/design/spec/style/icons.html#icons-system-icons) 
 from Google that are designed under the [material design guidelines](http://www.google.com/design/spec).
@@ -8,8 +9,6 @@ which allows rendering of an icon glyph simply by using its textual name.
 
 In this repository also implemented the ability to use the icons in the bootstrap-style, 
 like in `glyphicon`, `font-awesome` or `ionicons`.
-
-See [demo](http://mervick.github.io/material-design-icons/) with all icon set.
 
 ## Installation
 
