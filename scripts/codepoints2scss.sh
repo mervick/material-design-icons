@@ -4,7 +4,7 @@ pushd `dirname dirname $0` > /dev/null
 path=`pwd`
 popd > /dev/null
 
-codepoints_file="${path}/fonts/codepoints"
+codepoints_file="${path}/bower_components/material-design-icons/iconfont/codepoints"
 icons_scss_file="${path}/scss/_icons.scss"
 
 # default css prefix
