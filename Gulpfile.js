@@ -74,14 +74,10 @@ function generateDataCodepoints(filepath) {
             })
             .forEach(function (category) {
                 categories[category] = {};
-                let catPath = path.join(dir, category, "svg/production");
-                fs.readdirSync(catPath)
-                .filter(function(file) {
-                    return file.match(/^ic_(.+?)_\d+px\.svg$/);
-                })
+                fs.readdirSync(path.join(dir, category, "svg/production"))
                 .forEach(function(file) {
-                    let matches;
-                    if (matches = /^ic_(.+?)_\d+px\.svg$/.exec(file)) {
+                    let matches = /^ic_(.+?)_\d+px\.svg$/.exec(file);
+                    if (matches) {
                         let icon = matches[1];
                         if (codes[icon]) {
                             if (!categories[category][icon]) {
@@ -101,19 +97,20 @@ function generateDataCodepoints(filepath) {
                 let category = categories[name];
                 Object.keys(category).forEach(function(icon) {
                     let code = category[icon];
-                    cats[name][icon] = [code, !old[icon]];
-                    if (!old[icon]) {
-                        newIcons ++;
+                    if (codes[icon]) {
+                        cats[name][icon] = [code, !old[icon]];
+                        if (!old[icon]) {
+                            newIcons++;
+                        }
                     }
                 });
             });
             return cats;
         }
 
-        var codes = codepoints2obj(codepointsFile.contents);
-        var categories = scanCategories(modulePath, codes);
-        categories = calculateNewIcons(categories, codes,
-            codepoints2obj(fs.readFileSync(dstCodepoints).toString()));
+        var codes = codepoints2obj(codepointsFile.contents),
+            categories = scanCategories(modulePath, codes);
+        categories = calculateNewIcons(categories, codes, codepoints2obj(fs.readFileSync(dstCodepoints).toString()));
 
         gutil.log('Was found', gutil.colors.red(newIcons), 'new icons');
         gutil.log('Total found', gutil.colors.red(countIcons), 'icons.');
