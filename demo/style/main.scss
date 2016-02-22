@@ -208,6 +208,18 @@ a {
             display: -ms-flexbox;
             display: -webkit-flex;
             display: flex;
+            position: relative;
+            .new-badge {
+                position: absolute;
+                right: 8px;
+                top: -12px;
+                padding: 2px 3px;
+                border-radius: 2px;
+                background: #fe6363;
+                color: #fff;
+                font-size: 10px;
+                font-weight: 500;
+            }
             .mdi {
                 font-size: 48px;
                 width: 48px;

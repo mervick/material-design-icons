@@ -210,14 +210,26 @@ a {
       flex-direction: column;
       display: -ms-flexbox;
       display: -webkit-flex;
-      display: flex; }
-      /* line 211, main.scss */
+      display: flex;
+      position: relative; }
+      /* line 212, main.scss */
+      #grid-container .item-container .item .new-badge {
+        position: absolute;
+        right: 8px;
+        top: -12px;
+        padding: 2px 3px;
+        border-radius: 2px;
+        background: #fe6363;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 500; }
+      /* line 223, main.scss */
       #grid-container .item-container .item .mdi {
         font-size: 48px;
         width: 48px;
         height: 48px;
         color: #757575; }
-      /* line 217, main.scss */
+      /* line 229, main.scss */
       #grid-container .item-container .item .caption {
         color: #757575;
         font-size: 11px;
@@ -229,14 +241,14 @@ a {
         width: 100px;
         z-index: 1; }
 
-/* line 232, main.scss */
+/* line 244, main.scss */
 #snackbar {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 5; }
-  /* line 238, main.scss */
+  /* line 250, main.scss */
   #snackbar .snackbar-header {
     color: #fff;
     height: 64px;
@@ -244,37 +256,37 @@ a {
     padding: 19px 20px 20px;
     line-height: 26px;
     overflow: hidden; }
-    /* line 245, main.scss */
+    /* line 257, main.scss */
     #snackbar .snackbar-header .mdi {
       width: 24px;
       height: 24px;
       font-size: 24px;
       float: left; }
-    /* line 251, main.scss */
+    /* line 263, main.scss */
     #snackbar .snackbar-header .caption {
       font-size: 16px;
       margin-left: 15px; }
-    /* line 255, main.scss */
+    /* line 267, main.scss */
     #snackbar .snackbar-header .right-side {
       display: none;
       float: right; }
-      /* line 258, main.scss */
+      /* line 270, main.scss */
       #snackbar .snackbar-header .right-side .mdi {
         font-size: 22px;
         margin-top: 1px; }
-      /* line 262, main.scss */
+      /* line 274, main.scss */
       #snackbar .snackbar-header .right-side .caption {
         font-weight: 500;
         margin-left: 10px;
         text-transform: uppercase;
         font-size: 14px; }
-  /* line 270, main.scss */
+  /* line 282, main.scss */
   #snackbar p, #snackbar p a, #snackbar .code {
     font-family: 'Roboto Mono', monospace;
     font-size: 13px;
     line-height: 24px;
     background-color: #eee; }
-  /* line 276, main.scss */
+  /* line 288, main.scss */
   #snackbar .code {
     color: #434343;
     border: 0;
@@ -287,10 +299,10 @@ a {
     width: 100%;
     white-space: nowrap;
     overflow: hidden; }
-    /* line 288, main.scss */
+    /* line 300, main.scss */
     #snackbar .code.comment {
       opacity: 0.5; }
-  /* line 292, main.scss */
+  /* line 304, main.scss */
   #snackbar .snackbar-content {
     background-color: #eee;
     padding: 8px 24px;
@@ -298,43 +310,43 @@ a {
     -webkit-transition: -webkit-transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); }
-    /* line 299, main.scss */
+    /* line 311, main.scss */
     #snackbar .snackbar-content h2, #snackbar .snackbar-content p {
       font-size: 13px;
       line-height: 24px;
       font-family: 'Roboto Mono', monospace; }
-    /* line 304, main.scss */
+    /* line 316, main.scss */
     #snackbar .snackbar-content h2 {
       color: #02a8f3;
       display: inline-block;
       font-weight: 500;
       margin: 0; }
-    /* line 310, main.scss */
+    /* line 322, main.scss */
     #snackbar .snackbar-content p {
       margin: 0;
       color: #434343; }
-    /* line 314, main.scss */
+    /* line 326, main.scss */
     #snackbar .snackbar-content .col {
       margin: 16px 0; }
-  /* line 318, main.scss */
+  /* line 330, main.scss */
   #snackbar .snackbar-header, #snackbar .snackbar-content {
     margin: 0 -20px 0; }
 
-/* line 323, main.scss */
+/* line 335, main.scss */
 #footer {
   background: #EEE;
   padding: 20px 0;
   min-height: 120px; }
 
 @media (min-width: 500px) {
-  /* line 331, main.scss */
+  /* line 343, main.scss */
   #snackbar .snackbar-content .col {
     margin: 16px 40px 16px 0; }
-  /* line 334, main.scss */
+  /* line 346, main.scss */
   #snackbar .snackbar-header .right-side {
     display: block; } }
 @media (min-width: 800px) {
-  /* line 341, main.scss */
+  /* line 353, main.scss */
   .flex {
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
@@ -343,31 +355,31 @@ a {
     display: -webkit-flex;
     display: flex; }
 
-  /* line 349, main.scss */
+  /* line 361, main.scss */
   .col {
     width: 50%; }
 
-  /* line 352, main.scss */
+  /* line 364, main.scss */
   .container {
     padding: 0 35px;
     margin: 0 auto; }
 
-  /* line 356, main.scss */
+  /* line 368, main.scss */
   .snackbar-header, .snackbar-content {
     margin: 0 -10px 0; }
 
-  /* line 359, main.scss */
+  /* line 371, main.scss */
   #grid-container .grid {
     margin: 20px -30px 0 -15px; } }
 @media (min-width: 950px) {
-  /* line 365, main.scss */
+  /* line 377, main.scss */
   .col {
     width: 45%; } }
 @media (min-width: 1100px) {
-  /* line 371, main.scss */
+  /* line 383, main.scss */
   .col {
     width: 40%; } }
 @media (min-width: 1240px) {
-  /* line 377, main.scss */
+  /* line 389, main.scss */
   .container {
     width: 1226px; } }
