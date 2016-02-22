@@ -1,13 +1,13 @@
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'Material Icons';
-  src: url("../fonts/MaterialIcons-Regular.eot");
-  src: url("../fonts/MaterialIcons-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MaterialIcons-Regular.woff2") format("woff2"), url("../fonts/MaterialIcons-Regular.woff") format("woff"), url("../fonts/MaterialIcons-Regular.ttf") format("truetype");
+  font-family: "Material Design Icons";
   font-style: normal;
-  font-weight: 400; }
+  font-weight: 400;
+  src: url("../fonts/MaterialIcons-Regular.eot?v=2.2.1");
+  src: url("../fonts/MaterialIcons-Regular.eot?v=2.2.1#iefix") format("embedded-opentype"), url("../fonts/MaterialIcons-Regular.woff2?v=2.2.1") format("woff2"), url("../fonts/MaterialIcons-Regular.woff?v=2.2.1") format("woff"), url("../fonts/MaterialIcons-Regular.ttf?v=2.2.1") format("truetype"), url("../fonts/MaterialIcons-Regular.svg?v=2.2.1#materialiconsregular") format("svg"); }
 .mdi, .material-icons {
-  font: normal normal normal 14px/1 "Material Icons";
+  font: normal normal normal 14px/1 "Material Design Icons";
   font-size: inherit;
   display: inline-block;
   text-transform: none;
@@ -481,6 +481,9 @@
 .mdi-border-vertical:before {
   content: "\e233"; }
 
+.mdi-branding-watermark:before {
+  content: "\e06b"; }
+
 .mdi-brightness-1:before {
   content: "\e3a6"; }
 
@@ -520,11 +523,17 @@
 .mdi-brush:before {
   content: "\e3ae"; }
 
+.mdi-bubble-chart:before {
+  content: "\e6dd"; }
+
 .mdi-bug-report:before {
   content: "\e868"; }
 
 .mdi-build:before {
   content: "\e869"; }
+
+.mdi-burst-mode:before {
+  content: "\e43c"; }
 
 .mdi-business:before {
   content: "\e0af"; }
@@ -561,6 +570,9 @@
 
 .mdi-call-split:before {
   content: "\e0b6"; }
+
+.mdi-call-to-action:before {
+  content: "\e06c"; }
 
 .mdi-camera:before {
   content: "\e3af"; }
@@ -799,6 +811,12 @@
 .mdi-delete:before {
   content: "\e872"; }
 
+.mdi-delete-forever:before {
+  content: "\e92b"; }
+
+.mdi-delete-sweep:before {
+  content: "\e16c"; }
+
 .mdi-description:before {
   content: "\e873"; }
 
@@ -874,6 +892,12 @@
 .mdi-do-not-disturb-alt:before {
   content: "\e611"; }
 
+.mdi-do-not-disturb-off:before {
+  content: "\e643"; }
+
+.mdi-do-not-disturb-on:before {
+  content: "\e644"; }
+
 .mdi-dock:before {
   content: "\e30e"; }
 
@@ -927,6 +951,12 @@
 
 .mdi-error-outline:before {
   content: "\e001"; }
+
+.mdi-euro-symbol:before {
+  content: "\e926"; }
+
+.mdi-ev-station:before {
+  content: "\e56d"; }
 
 .mdi-event:before {
   content: "\e878"; }
@@ -993,6 +1023,12 @@
 
 .mdi-favorite-border:before {
   content: "\e87e"; }
+
+.mdi-featured-play-list:before {
+  content: "\e06d"; }
+
+.mdi-featured-video:before {
+  content: "\e06e"; }
 
 .mdi-feedback:before {
   content: "\e87f"; }
@@ -1086,6 +1122,9 @@
 
 .mdi-fingerprint:before {
   content: "\e90d"; }
+
+.mdi-first-page:before {
+  content: "\e5dc"; }
 
 .mdi-fitness-center:before {
   content: "\eb43"; }
@@ -1233,6 +1272,9 @@
 
 .mdi-functions:before {
   content: "\e24a"; }
+
+.mdi-g-translate:before {
+  content: "\e927"; }
 
 .mdi-gamepad:before {
   content: "\e30f"; }
@@ -1477,6 +1519,9 @@
 .mdi-laptop-windows:before {
   content: "\e321"; }
 
+.mdi-last-page:before {
+  content: "\e5dd"; }
+
 .mdi-launch:before {
   content: "\e895"; }
 
@@ -1669,6 +1714,9 @@
 .mdi-loupe:before {
   content: "\e402"; }
 
+.mdi-low-priority:before {
+  content: "\e16d"; }
+
 .mdi-loyalty:before {
   content: "\e89a"; }
 
@@ -1717,6 +1765,9 @@
 .mdi-mode-edit:before {
   content: "\e254"; }
 
+.mdi-monetization-on:before {
+  content: "\e263"; }
+
 .mdi-money-off:before {
   content: "\e25c"; }
 
@@ -1755,6 +1806,9 @@
 
 .mdi-movie-filter:before {
   content: "\e43a"; }
+
+.mdi-multiline-chart:before {
+  content: "\e6df"; }
 
 .mdi-music-note:before {
   content: "\e405"; }
@@ -1812,6 +1866,9 @@
 
 .mdi-not-interested:before {
   content: "\e033"; }
+
+.mdi-note:before {
+  content: "\e06f"; }
 
 .mdi-note-add:before {
   content: "\e89c"; }
@@ -2020,6 +2077,12 @@
 .mdi-picture-in-picture-alt:before {
   content: "\e911"; }
 
+.mdi-pie-chart:before {
+  content: "\e6c4"; }
+
+.mdi-pie-chart-outlined:before {
+  content: "\e6c5"; }
+
 .mdi-pin-drop:before {
   content: "\e55e"; }
 
@@ -2082,6 +2145,9 @@
 
 .mdi-print:before {
   content: "\e8ad"; }
+
+.mdi-priority-high:before {
+  content: "\e645"; }
 
 .mdi-public:before {
   content: "\e80b"; }
@@ -2149,6 +2215,9 @@
 .mdi-remove-red-eye:before {
   content: "\e417"; }
 
+.mdi-remove-shopping-cart:before {
+  content: "\e928"; }
+
 .mdi-reorder:before {
   content: "\e8fe"; }
 
@@ -2182,11 +2251,17 @@
 .mdi-report-problem:before {
   content: "\e8b2"; }
 
+.mdi-restaurant:before {
+  content: "\e56c"; }
+
 .mdi-restaurant-menu:before {
   content: "\e561"; }
 
 .mdi-restore:before {
   content: "\e8b3"; }
+
+.mdi-restore-page:before {
+  content: "\e929"; }
 
 .mdi-ring-volume:before {
   content: "\e0d1"; }
@@ -2214,6 +2289,9 @@
 
 .mdi-rowing:before {
   content: "\e921"; }
+
+.mdi-rss-feed:before {
+  content: "\e0e5"; }
 
 .mdi-rv-hookup:before {
   content: "\e642"; }
@@ -2265,6 +2343,21 @@
 
 .mdi-send:before {
   content: "\e163"; }
+
+.mdi-sentiment-dissatisfied:before {
+  content: "\e811"; }
+
+.mdi-sentiment-neutral:before {
+  content: "\e812"; }
+
+.mdi-sentiment-satisfied:before {
+  content: "\e813"; }
+
+.mdi-sentiment-very-dissatisfied:before {
+  content: "\e814"; }
+
+.mdi-sentiment-very-satisfied:before {
+  content: "\e815"; }
 
 .mdi-settings:before {
   content: "\e8b8"; }
@@ -2337,6 +2430,9 @@
 
 .mdi-short-text:before {
   content: "\e261"; }
+
+.mdi-show-chart:before {
+  content: "\e6e1"; }
 
 .mdi-shuffle:before {
   content: "\e043"; }
@@ -2422,6 +2518,9 @@
 .mdi-speaker-notes:before {
   content: "\e8cd"; }
 
+.mdi-speaker-notes-off:before {
+  content: "\e92a"; }
+
 .mdi-speaker-phone:before {
   content: "\e0d2"; }
 
@@ -2470,6 +2569,9 @@
 .mdi-straighten:before {
   content: "\e41c"; }
 
+.mdi-streetview:before {
+  content: "\e56e"; }
+
 .mdi-strikethrough-s:before {
   content: "\e257"; }
 
@@ -2490,6 +2592,9 @@
 
 .mdi-subtitles:before {
   content: "\e048"; }
+
+.mdi-subway:before {
+  content: "\e56f"; }
 
 .mdi-supervisor-account:before {
   content: "\e8d3"; }
@@ -2599,6 +2704,9 @@
 .mdi-timer-off:before {
   content: "\e426"; }
 
+.mdi-title:before {
+  content: "\e264"; }
+
 .mdi-toc:before {
   content: "\e8de"; }
 
@@ -2622,6 +2730,15 @@
 
 .mdi-traffic:before {
   content: "\e565"; }
+
+.mdi-train:before {
+  content: "\e570"; }
+
+.mdi-tram:before {
+  content: "\e571"; }
+
+.mdi-transfer-within-a-station:before {
+  content: "\e572"; }
 
 .mdi-transform:before {
   content: "\e428"; }
@@ -2682,6 +2799,12 @@
 
 .mdi-vibration:before {
   content: "\e62d"; }
+
+.mdi-video-call:before {
+  content: "\e070"; }
+
+.mdi-video-label:before {
+  content: "\e071"; }
 
 .mdi-video-library:before {
   content: "\e04a"; }
