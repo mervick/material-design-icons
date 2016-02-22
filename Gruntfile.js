@@ -1,3 +1,11 @@
+/* jshint nod: true */
+"use strict";
+
+var livereload = {
+    host: 'localhost',
+    port: 35729,
+};
+
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -38,15 +46,18 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: [
-                    'scss/material-icons.scss',
-                    'demo/style/main.scss'
+                    'scss/*.scss',
+                    'demo/style/*.scss'
                 ],
-                tasks: ['sass']
+                tasks: ['sass'],
+                options: {
+                    livereload: livereload
+                }
             }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['sass', 'cssmin', 'watch']);
+    grunt.registerTask('default', ['sass', 'watch']);
 }
