@@ -48,11 +48,13 @@
             this.model.trigger('hideSnackBar');
             $(this.el).addClass("selected");
             var view = new views.snackbarView({model: this.model});
+            navigate(this.model.attributes.className);
             view.render();
             return false;
         },
         hideSnackBar: function() {
             $(this.el).removeClass("selected");
+            navigate();
         }
     });
 
@@ -150,6 +152,34 @@
         }
     });
 
+    var Router = Backbone.Router.extend({
+        routes: {
+            '': 'index',
+            ":query": "item",
+        },
+        index: function() {
+            renderData(window.data);
+        },
+
+        item: function(query) {
+            renderData(window.data);
+            setTimeout(function() {
+                var item = $(".item-container > .item > .mdi.mdi-" + query.replace(/[^0-9a-zA-Z]/g, '-'))
+                    .closest(".item-container");
+                if (item.length) {
+                    item.trigger("click");
+                    $('body, html').animate({scrollTop: item.offset().top - 74}, 0);
+                }
+            }, 50);
+        }
+    });
+
+    var navigate = function(hash) {
+        var scrollTop = $(window).scrollTop();
+        Backbone.history.navigate(hash, false);
+        $('body, html').animate({scrollTop: scrollTop}, 0);
+    };
+
     $(document).ready(function () {
         var is_fixed_search = false,
             $win = $(window),
@@ -170,8 +200,6 @@
             }
         });
 
-        renderData(window.data);
-
         $("body").on("focus", "textarea.code", function() {
             var $this = $(this);
             $this.select();
@@ -189,6 +217,9 @@
             e.preventDefault();
             return false;
         });
+
+        new Router;
+        Backbone.history.start();
 
     });
 }) (jQuery, Backbone);
