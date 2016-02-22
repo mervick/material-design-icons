@@ -6,7 +6,6 @@ var _ = require('lodash'),
     gulp = require('gulp'),
     gutil = require('gulp-util'),
     changed = require('gulp-changed'),
-    rename = require("gulp-rename"),
     File = require('vinyl'),
     path = require('path'),
     through2 = require('through2');
@@ -133,5 +132,10 @@ gulp.task('update-demo-data', function() {
         .pipe(generateDataCodepoints(demoDataFile))
         .pipe(gulp.dest('.'));
 });
+
+gulp.task('update-codepoints', function() {
+    gulp.src(srcCodepoints)
+        .pipe(gulp.dest(fontsPath));
+})
 
 gulp.task('default', ['update-sass', 'update-demo-data']);
