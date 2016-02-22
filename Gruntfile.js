@@ -1,4 +1,4 @@
-/* jshint nod: true */
+/* jshint node: true */
 "use strict";
 
 var livereload = {
