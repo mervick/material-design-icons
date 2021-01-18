@@ -3,12 +3,12 @@
 // Spinning Icons
 // --------------------------
 
-.#{$md-css-prefix}-spin {
+.#{$md-prefix}-spin {
   -webkit-animation: md-spin 2s infinite linear;
           animation: md-spin 2s infinite linear;
 }
 
-.#{$md-css-prefix}-pulse {
+.#{$md-prefix}-pulse {
   -webkit-animation: md-spin 1s infinite steps(8);
           animation: md-spin 1s infinite steps(8);
 }

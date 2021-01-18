@@ -3,7 +3,7 @@
 // Bordered & Pulled
 // -------------------------
 
-.#{$md-css-prefix}-border {
+.#{$md-prefix}-border {
   padding: .2em .25em .15em;
   border: solid .08em $md-border-color;
   border-radius: .1em;
@@ -12,7 +12,7 @@
 .pull-right { float: right; }
 .pull-left { float: left; }
 
-.#{$md-css-prefix} {
+.#{$md-prefix} {
   &.pull-left { margin-right: .3em; }
   &.pull-right { margin-left: .3em; }
 }

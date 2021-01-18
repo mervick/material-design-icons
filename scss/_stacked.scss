@@ -3,7 +3,7 @@
 // Stacked Icons
 // -------------------------
 
-.#{$md-css-prefix}-stack {
+.#{$md-prefix}-stack {
   position: relative;
   display: inline-block;
   width: 2em;
@@ -11,12 +11,12 @@
   line-height: 2em;
   vertical-align: middle;
 }
-.#{$md-css-prefix}-stack-1x, .#{$md-css-prefix}-stack-2x {
+.#{$md-prefix}-stack-1x, .#{$md-prefix}-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center;
 }
-.#{$md-css-prefix}-stack-1x { line-height: inherit; }
-.#{$md-css-prefix}-stack-2x { font-size: 2em; }
-.#{$md-css-prefix}-inverse { color: $md-inverse; }
+.#{$md-prefix}-stack-1x { line-height: inherit; }
+.#{$md-prefix}-stack-2x { font-size: 2em; }
+.#{$md-prefix}-inverse { color: $md-inverse; }
