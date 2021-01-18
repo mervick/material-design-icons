@@ -1,33 +1,3 @@
-@font-face {
-  font-family: "Material Icons";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/4.0.0/material-icons.eot");
-  src: url("../fonts/4.0.0/material-icons.eot#iefix") format("embedded-opentype"), url("../fonts/4.0.0/material-icons.woff2") format("woff2"), url("../fonts/4.0.0/material-icons.woff") format("woff"), url("../fonts/4.0.0/material-icons.ttf") format("truetype"); }
-@font-face {
-  font-family: "Material Icons Outlined";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/4.0.0/material-icons-outlined.eot");
-  src: url("../fonts/4.0.0/material-icons-outlined.eot#iefix") format("embedded-opentype"), url("../fonts/4.0.0/material-icons-outlined.woff2") format("woff2"), url("../fonts/4.0.0/material-icons-outlined.woff") format("woff"), url("../fonts/4.0.0/material-icons-outlined.otf") format("opentype"); }
-@font-face {
-  font-family: "Material Icons Round";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/4.0.0/material-icons-round.eot");
-  src: url("../fonts/4.0.0/material-icons-round.eot#iefix") format("embedded-opentype"), url("../fonts/4.0.0/material-icons-round.woff2") format("woff2"), url("../fonts/4.0.0/material-icons-round.woff") format("woff"), url("../fonts/4.0.0/material-icons-round.otf") format("opentype"); }
-@font-face {
-  font-family: "Material Icons Sharp";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/4.0.0/material-icons-sharp.eot");
-  src: url("../fonts/4.0.0/material-icons-sharp.eot#iefix") format("embedded-opentype"), url("../fonts/4.0.0/material-icons-sharp.woff2") format("woff2"), url("../fonts/4.0.0/material-icons-sharp.woff") format("woff"), url("../fonts/4.0.0/material-icons-sharp.otf") format("opentype"); }
-@font-face {
-  font-family: "Material Icons Two Tone";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/4.0.0/material-icons-two-tone.eot");
-  src: url("../fonts/4.0.0/material-icons-two-tone.eot#iefix") format("embedded-opentype"), url("../fonts/4.0.0/material-icons-two-tone.woff2") format("woff2"), url("../fonts/4.0.0/material-icons-two-tone.woff") format("woff"), url("../fonts/4.0.0/material-icons-two-tone.otf") format("opentype"); }
 .mdi, .material-icons {
   font: normal normal normal 14px/1 "Material Icons"; }
 
