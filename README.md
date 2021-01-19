@@ -6,13 +6,14 @@ from Google that are designed under the [material design guidelines](http://www.
 
 ## Installation
 
-You may install this package using `npm` or `yarn`:
+#### Yarn
 ```shell
-npm install bootstrap-material-design-icons
+yarn add @mervick/mdi-icons
 ```
 
+#### NPM
 ```shell
-yarn add bootstrap-material-design-icons
+npm install @mervick/mdi-icons --save
 ```
 
 ## Usage
