@@ -16,12 +16,15 @@
     "Material Icons Two Tone": 'two-tones'
   };
 
+  let activeFont = "Material Icons";
+
   const renderData = function (dataIcons) {
     let icons = [];
     const categories = {};
     dataIcons.forEach(function(icon) {
       (icon.categories || []).forEach(function(category) {
         const name = icon.name || '';
+        if (icon.unsupported_families.indexOf(activeFont) !== -1) return;
         categories[category] || (categories[category] = []);
         categories[category] = categories[category].concat({
           category: category,
@@ -32,11 +35,13 @@
           tags: icon.tags || [],
           version: icon.version,
           unsupported: icon.unsupported_families.map(family => families[family]),
-          font: 'Material Icons'
+          font: activeFont
         });
       })
     });
-    Object.keys(categories).forEach(category => {
+    const keys = Object.keys(categories);
+    keys.sort();
+    keys.forEach(category => {
       icons = icons.concat(categories[category]);
     })
     const view = new Views.Icons({collection: new Models.Icons(icons)});
