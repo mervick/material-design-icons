@@ -167,11 +167,9 @@ Using CSS classes, you can also use additional features such as:
 
 ## Licenses
 
-- Google Material Design Icons fonts are licensed under the CC-BY-4.0:
-  - https://github.com/google/material-design-icons/blob/master/LICENSE
+- Google Material Design Icons fonts are licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-- Python scripts are licensed under the Apache License, Version 2.0:
-  - http://www.apache.org/licenses/LICENSE-2.0
+- Python scripts are licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-- Bootstrap Material Design Icons CSS and SCSS files are licensed under the MIT License:
-  - http://opensource.org/licenses/mit-license.html
+- Bootstrap Material Design Icons CSS and SCSS files are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
+
